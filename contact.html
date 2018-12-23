@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Начална страница</title>
+    <link rel="stylesheet" type="text/css" href="main.css">
+
+</head>
+
+<body>
+    <div class="topnav">
+        <a href="index.html">Начало</a>
+        <a href="levelchoosing.html">Нива</a>
+        <a class="active" href="contact.html">Контакти</a>
+        <a href="about.html">За нас</a>
+    </div>
+    <form>
+        <div class="container">
+            <form action="action_page.php">
+
+                <label for="fname">Име</label>
+                <input type="text" id="fname" name="firstname" placeholder="Вашето име..">
+
+                <label for="lname">Фамилия</label>
+                <input type="text" id="lname" name="lastname" placeholder="Вашата фамилия..">
+
+                <label for="country">Държава</label>
+                <select id="country" name="country">
+                    <option value="australia">България</option>
+                    <option value="canada">Друга</option>
+                </select>
+
+                <label for="subject">Тема</label>
+                <textarea id="subject" name="subject" placeholder="Напишете нещо.." style="height:200px"></textarea>
+
+                <input type="submit" value="Submit">
+
+            </form>
+        </div>
+</body>
+
+</html>
