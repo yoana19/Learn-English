@@ -139,7 +139,7 @@ body {
 
 /*-----------navigation bar-------------------------*/
 
-header {
+.mainHeader {
     padding: 20px 0;
     background: repeating-linear-gradient(45deg, #f0f2ed, #f0f2ed 20px, #f8f4eb 20px, #f8f4eb 40px);
     box-shadow: 0 4px 6px rgba(0, 0, 0, .2);
@@ -208,7 +208,7 @@ nav a:hover:after {
 }
 
 @media screen and (max-width: 660px) {
-    header {
+    .mainHeader {
         text-align: center;
     }
 
@@ -615,5 +615,207 @@ body {
     top: 50%;
 }
 
-/*--------------------------------------------------*/
+/*------------------table--------------------*/
 
+table {
+    height: 40%;
+    left: 10%;
+    margin: 20px auto;
+    overflow-y: scroll;
+    position: static;
+    width: 60%;
+}
+
+thead th {
+    background: #d9b38c;
+    color: #FFF;
+    font-family: 'Lato', sans-serif;
+    font-size: 16px;
+    font-weight: 100;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+
+tr {
+    background: #f4f7f8;
+    border-bottom: 1px solid #FFF;
+    margin-bottom: 5px;
+}
+
+th,
+td {
+    font-family: 'Lato', sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    padding: 20px;
+    text-align: left;
+    width: 33.3333%;
+}
+
+/*------------------------------------------------*/
+
+
+
+.lessonHeader {
+    align-items: center;
+    display: flex;
+    height: 300px;
+    justify-content: center;
+    overflow: hidden;
+    position: relative;
+}
+
+.lessonHeader::before {
+    animation: fade-slide-down 2s 500ms cubic-bezier(0, 0.5, 0, 1) forwards;
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, .8)),
+        url('https://images.unsplash.com/photo-1487525219605-eadb39ae229c?ixlib=rb-0.3.5&s=f4ba0a64eae53f957b8c4d54f3f98944&auto=format&fit=crop&w=2564&q=80') no-repeat bottom;
+    background-size: cover;
+    bottom: 0;
+    content: "";
+    left: -5%;
+    opacity: 0;
+    position: absolute;
+    right: -5%;
+    top: 0;
+    z-index: -1;
+}
+
+.lessonHeader::after {
+    animation: rotate-up 500ms 500ms cubic-bezier(0, 0.5, 0, 1) forwards;
+    background: #fff;
+    content: "";
+    height: 40rem;
+    left: -5%;
+    position: absolute;
+    right: -5%;
+    top: 90%;
+    transform-origin: 0 0;
+    z-index: 0;
+}
+
+#header-content {
+    margin-top: -1%;
+    overflow: visible;
+    text-align: center;
+    width: 100%;
+}
+
+h1,
+h3 {
+    color: #fff;
+    margin: 0;
+    opacity: 0;
+}
+
+h1 {
+    animation: fade-slide-down-rotate 2s 2s cubic-bezier(0, 0.5, 0, 1) forwards;
+    animation-delay: 800ms;
+    font-family: 'Satisfy', cursive;
+    font-size: calc(5vw + 0.5vmin);
+    font-weight: 400;
+    margin-bottom: 2.5%;
+}
+
+h3 {
+    animation: fade-slide-up 3s 3s cubic-bezier(0, 0.5, 0, 1) forwards;
+    animation-delay: 800ms;
+    font-size: calc(1.25vw + 0.8vmin);
+    font-weight: 300;
+    letter-spacing: 0.5em;
+    text-transform: uppercase;
+}
+
+h3 span {
+    color: #A1E545;
+    font-family: 'Satisfy', cursive;
+    font-size: 2em;
+    letter-spacing: 0;
+    opacity: 0.8;
+    padding: 0 0.25em;
+    text-transform: none;
+}
+
+/* Animations */
+@keyframes fade-slide-down {
+    0% {
+        opacity: 0;
+        transform: translateY(-4rem);
+    }
+
+    100% {
+        opacity: 1;
+        transform: none;
+    }
+}
+
+@keyframes fade-slide-down-rotate {
+    0% {
+        opacity: 0;
+        transform: translateY(-4rem);
+    }
+
+    100% {
+        opacity: 1;
+        transform: rotate(-4deg);
+    }
+}
+
+@keyframes fade-slide-up {
+    0% {
+        opacity: 0;
+        transform: translateY(4rem);
+    }
+
+    100% {
+        opacity: 1;
+        transform: none;
+    }
+}
+
+@keyframes rotate-up {
+    100% {
+        transform: rotateZ(-4deg);
+    }
+}
+
+@keyframes flip-scale-up {
+    0% {
+        transform: scale(1) rotateX(0);
+    }
+
+    50% {
+        transform: scale(2.5) rotateX(-90deg)
+    }
+
+    100% {
+        transform: scale(1) rotateX(-180deg)
+    }
+}
+
+/*--------------------------------*/
+.audio {
+    position: fixed;
+    top:513px;
+    right:130px;
+}
+
+/*------------------*/
+#slideshow {
+    margin: 80px auto;
+    position: fixed;
+    right: 150px;
+    width: 240px;
+    height: 240px;
+    padding: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.4);
+
+
+}
+
+#slideshow > div {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    right: 10px;
+    bottom: 10px;
+}
