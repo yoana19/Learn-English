@@ -139,6 +139,114 @@ body {
 
 /*-----------navigation bar-------------------------*/
 
+header {
+    padding: 20px 0;
+    background: repeating-linear-gradient(45deg, #f0f2ed, #f0f2ed 20px, #f8f4eb 20px, #f8f4eb 40px);
+    box-shadow: 0 4px 6px rgba(0, 0, 0, .2);
+}
+
+.container {
+    padding: 0 20px;
+    max-width: 960px;
+    margin: 0 auto;
+}
+
+.logo-box {
+    float: left;
+    margin-right: 20px;
+}
+
+.logo-box a {
+    outline: none;
+    display: block;
+}
+
+.logo-box img {
+    display: block;
+}
+
+nav {
+    overflow: hidden;
+}
+
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    float: right;
+}
+
+nav li {
+    display: inline-block;
+    margin-left: 25px;
+    height: 70px;
+    line-height: 70px;
+    transition: .5s linear;
+}
+
+nav a {
+    text-decoration: none;
+    display: block;
+    position: relative;
+    color: #868686;
+    text-transform: uppercase;
+}
+
+nav a:after {
+    content: "";
+    width: 0;
+    height: 2px;
+    position: absolute;
+    left: 0;
+    bottom: 15px;
+    background: #868686;
+    transition: width .5s linear;
+}
+
+nav a:hover:after {
+    width: 100%;
+}
+
+@media screen and (max-width: 660px) {
+    header {
+        text-align: center;
+    }
+
+    .logo-box {
+        float: none;
+        display: inline-block;
+        margin: 0 0 16px 0;
+    }
+
+    ul {
+        float: none;
+    }
+
+    nav li:first-of-type {
+        margin-left: 0;
+    }
+}
+
+@media screen and (max-width: 550px) {
+    nav {
+        overflow: visible;
+    }
+
+    nav li {
+        display: block;
+        margin: 0;
+        height: 40px;
+        line-height: 40px;
+    }
+
+    nav li:hover {
+        background: rgba(0, 0, 0, .1);
+    }
+
+    nav a:after {
+        content: none;
+    }
+}
 
 /*-------------contact form---------------*/
 
@@ -248,114 +356,264 @@ button:hover {
 
 @import url(https://fonts.googleapis.com/css?family=Open+Sans:400,800,700,300);
 @import url(https://fonts.googleapis.com/css?family=Squada+One);
+
 body {
-  padding: 20px 80px;
-  background: #eee url(https://subtlepatterns.com/patterns/extra_clean_paper.png);
-}
-#logo {
-  font-family: 'Open Sans', sans-serif;
-  color: #555;
-  text-decoration: none;
-  text-transform: uppercase;
-  font-size: 150px;
-  font-weight: 800;
-  letter-spacing: -3px;
-  line-height: 1;
-  text-shadow: #EDEDED 3px 2px 0;
-  position: relative;
-}
-#logo:after {
-  content:"dreamdealer";
-  position: absolute;
-  left: 8px;
-  top: 32px;
-}
-#logo:after {
-  /*background: url(https://subtlepatterns.com/patterns/crossed_stripes.png) repeat;*/
-  background-image: -webkit-linear-gradient(left top, transparent 0%, transparent 25%, #555 25%, #555 50%, transparent 50%, transparent 75%, #555 75%);
-  background-size: 4px 4px;
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  z-index: -5;
-  display: block;
-  text-shadow: none;
-}
-#menu {
-  width: 1090px;
-  height: 42px;
-  list-style: none;
-  margin: 10px 0 0 0; padding: 25px 10px;
-  border-top: 4px double #AAA;
-  border-bottom: 4px double #AAA;
-  position: relative;
-  text-align: center;
-}
-#menu li {
-  display: inline-block;
-  width: 173px;
-  margin: 0 10px;
-  position: relative;
-  -webkit-transform: skewy(-3deg);
-  -webkit-backface-visibility: hidden;
-  -webkit-transition: 200ms all;
-}
-#menu li a {
-  text-transform: uppercase;
-  font-family: 'Squada One', cursive;
-  font-weight: 800;
-  display: block;
-  background: #FFF;
-  padding: 2px 10px;
-  color: #333;
-  font-size: 35px;
-  text-align: center;
-  text-decoration: none;
-  position: relative;
-  z-index: 1;
-  text-shadow: 
-		1px 1px 0px #FFF, 
-		2px 2px 0px #999,
-		3px 3px 0px #FFF;
-	background-image: -webkit-linear-gradient(top, transparent 0%, rgba(0,0,0,.05) 100%);
-	-webkit-transition: 1s all;
-	background-image: -webkit-linear-gradient(left top, 
-		transparent 0%, transparent 25%, 
-		rgba(0,0,0,.15) 25%, rgba(0,0,0,.15) 50%, 
-		transparent 50%, transparent 75%, 
-		rgba(0,0,0,.15) 75%);
-  background-size: 4px 4px;
-	box-shadow: 
-		0 0 0 1px rgba(0,0,0,.4) inset, 
-		0 0 20px -5px rgba(0,0,0,.4),
-		0 0 0px 3px #FFF inset;
-}
-#menu li:hover {
-	width: 203px;
-	margin: 0 -5px;
-}
-#menu a:hover {
-  color: #d90075;
-}
-#menu li:after,
-#menu li:before {
-  content: '';
-  position: absolute;
-  width: 50px;
-  height: 100%;
-  background: #BBB;
-  -webkit-transform: skewY(8deg);
-  x-index: -3;
-	border-radius: 4px;
-}
-#menu li:after {
-	background-image: -webkit-linear-gradient(left, transparent 0%, rgba(0,0,0,.4) 100%);
-  right: 0;
-  top: -4px; 
-}
-#menu li:before {
-  left: 0;
-  bottom: -4px;
-	background-image: -webkit-linear-gradient(right, transparent 0%, rgba(0,0,0,.4) 100%);
+    padding: 20px 80px;
+    background: #eee url(https://subtlepatterns.com/patterns/extra_clean_paper.png);
 }
 
-/*---------------------------------------------------*/
+#logo {
+    font-family: 'Open Sans', sans-serif;
+    color: #555;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 150px;
+    font-weight: 800;
+    letter-spacing: -3px;
+    line-height: 1;
+    text-shadow: #EDEDED 3px 2px 0;
+    position: relative;
+}
+
+#logo:after {
+    content: "dreamdealer";
+    position: absolute;
+    left: 8px;
+    top: 32px;
+}
+
+#logo:after {
+    /*background: url(https://subtlepatterns.com/patterns/crossed_stripes.png) repeat;*/
+    background-image: -webkit-linear-gradient(left top, transparent 0%, transparent 25%, #555 25%, #555 50%, transparent 50%, transparent 75%, #555 75%);
+    background-size: 4px 4px;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    z-index: -5;
+    display: block;
+    text-shadow: none;
+}
+
+#menu {
+    width: 1090px;
+    height: 42px;
+    list-style: none;
+    margin: 10px 0 0 0;
+    padding: 25px 10px;
+    border-top: 4px double #AAA;
+    border-bottom: 4px double #AAA;
+    position: relative;
+    text-align: center;
+}
+
+#menu li {
+    display: inline-block;
+    width: 173px;
+    margin: 0 10px;
+    position: relative;
+    -webkit-transform: skewy(-3deg);
+    -webkit-backface-visibility: hidden;
+    -webkit-transition: 200ms all;
+}
+
+#menu li a {
+    text-transform: uppercase;
+    font-family: 'Squada One', cursive;
+    font-weight: 800;
+    display: block;
+    background: #FFF;
+    padding: 2px 10px;
+    color: #333;
+    font-size: 35px;
+    text-align: center;
+    text-decoration: none;
+    position: relative;
+    z-index: 1;
+    text-shadow:
+        1px 1px 0px #FFF,
+        2px 2px 0px #999,
+        3px 3px 0px #FFF;
+    background-image: -webkit-linear-gradient(top, transparent 0%, rgba(0, 0, 0, .05) 100%);
+    -webkit-transition: 1s all;
+    background-image: -webkit-linear-gradient(left top,
+        transparent 0%, transparent 25%,
+        rgba(0, 0, 0, .15) 25%, rgba(0, 0, 0, .15) 50%,
+        transparent 50%, transparent 75%,
+        rgba(0, 0, 0, .15) 75%);
+    background-size: 4px 4px;
+    box-shadow:
+        0 0 0 1px rgba(0, 0, 0, .4) inset,
+        0 0 20px -5px rgba(0, 0, 0, .4),
+        0 0 0px 3px #FFF inset;
+}
+
+#menu li:hover {
+    width: 203px;
+    margin: 0 -5px;
+}
+
+#menu a:hover {
+    color: #d90075;
+}
+
+#menu li:after,
+#menu li:before {
+    content: '';
+    position: absolute;
+    width: 50px;
+    height: 100%;
+    background: #BBB;
+    -webkit-transform: skewY(8deg);
+    x-index: -3;
+    border-radius: 4px;
+}
+
+#menu li:after {
+    background-image: -webkit-linear-gradient(left, transparent 0%, rgba(0, 0, 0, .4) 100%);
+    right: 0;
+    top: -4px;
+}
+
+#menu li:before {
+    left: 0;
+    bottom: -4px;
+    background-image: -webkit-linear-gradient(right, transparent 0%, rgba(0, 0, 0, .4) 100%);
+}
+
+/*---------------articles---------------------*/
+/* Block */
+.card {
+    width: 275px;
+
+    font-family: 'Playfair Display', serif;
+    text-align: center;
+
+    transition: all .125s;
+    transform: scale(1) translateY(0px);
+}
+
+/* Elements */
+.card__wrapper {
+    padding-top: .1px;
+    padding-bottom: .1px;
+    position: relative;
+
+    background-color: #ffffff;
+    color: #999999;
+    box-shadow: 0 0 5px 0 rgba(0, 0, 0, .05);
+}
+
+.card__wrapper:after {
+    content: '';
+    position: absolute;
+    z-index: -1;
+    top: 15px;
+    right: 15px;
+    bottom: 0;
+    left: 15px;
+
+    box-shadow: 0 5px 15px 0 rgba(0, 0, 0, .2);
+    transition: all .125s;
+    transform: scale(1) translateY(0px);
+}
+
+.card__box {
+    padding-right: 35px;
+    padding-left: 35px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+.card__item {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.card__item--small {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.card__feature {
+    margin-top: 0;
+    margin-right: 0;
+    margin-bottom: 0;
+    margin-left: 0;
+}
+
+.card__img {
+    display: block;
+    max-width: 100%;
+    height: 240px;
+    width: 275px;
+}
+
+.card__header {
+    position: relative;
+    z-index: 1;
+}
+
+.card__title {
+    color: #222222;
+
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 1.25;
+}
+
+.card__label {
+    color: #cccccc;
+
+    font-family: 'Montserrat', sans-serif;
+    font-size: 8px;
+    text-transform: uppercase;
+    letter-spacing: .2em;
+}
+
+.card__divider {
+    display: block;
+    width: 100%;
+    height: 15px;
+
+    border: none;
+    background-image: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz48IURPQ1RZUEUgc3ZnIFBVQkxJQyAiLS8vVzNDLy9EVEQgU1ZHIDEuMS8vRU4iICJodHRwOi8vd3d3LnczLm9yZy9HcmFwaGljcy9TVkcvMS4xL0RURC9zdmcxMS5kdGQiPjxzdmcgdmVyc2lvbj0iMS4xIiBpZD0iTGF5ZXJfMSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB4bWxuczp4bGluaz0iaHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluayIgeD0iMHB4IiB5PSIwcHgiIHdpZHRoPSIyOHB4IiBoZWlnaHQ9IjE1cHgiIHZpZXdCb3g9IjAgMCAyOCAxNSIgZW5hYmxlLWJhY2tncm91bmQ9Im5ldyAwIDAgMjggMTUiIHhtbDpzcGFjZT0icHJlc2VydmUiPjxwYXRoIGZpbGw9IiNERURFREUiIGQ9Ik0yNy41LDdoLTZDMjEuMiwzLjEsMTgsMCwxNCwwUzYuOCwzLjEsNi41LDdoLTZDMC4yLDcsMCw3LjIsMCw3LjVTMC4yLDgsMC41LDhoNmMwLjMsMy45LDMuNSw3LDcuNSw3czcuMi0zLjEsNy41LTdoNkMyNy44LDgsMjgsNy44LDI4LDcuNVMyNy44LDcsMjcuNSw3eiBNMTQsMWMzLjQsMCw2LjIsMi42LDYuNSw2SDcuNUM3LjgsMy42LDEwLjYsMSwxNCwxeiBNMTQsMTRjLTMuNCwwLTYuMi0yLjYtNi41LTZoMTIuOUMyMC4yLDExLjQsMTcuNCwxNCwxNCwxNHoiLz48L3N2Zz4=);
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+.card__body {
+    font-size: 12px;
+    line-height: 1.75;
+}
+
+/* Modifiers */
+.card:hover {
+    cursor: pointer;
+    transform: scale(1.05);
+}
+
+.card:hover .card__wrapper {
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, .05);
+}
+
+.card:hover .card__wrapper:after {
+    transform: scale(0.95) translateY(10px);
+}
+
+/* Demo */
+body {
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    background-color: #e9ebea;
+    text-align: center;
+}
+
+.card {
+    display: inline-block;
+    margin-top: calc((100vh - 506px) / 2);
+    margin-right: 15px;
+    margin-left: 15px;
+    top: 50%;
+}
+
+/*--------------------------------------------------*/
+
