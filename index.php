@@ -2,122 +2,142 @@
     require "header.php";
 ?>
 
+	<header>
+		<div class="home_header">
+			<img class="homeImg" src="img/home.jpg">
+			<div class="centerHome">Учете английски език по лесен и достъпен начин</div>
+			<div class="diagnostic">
+				<form action="diagnostic-test.php">
+				<button class="diagnosticBtn">Започни</button>	
+				</form>
+			</div>
 
-<!-- Button to open the modal -->
-<!-- <button class="signButton" onclick="document.getElementById('id02').style.display='block'">Регистрация</button>
-
-    <!-- The Modal (contains the Sign Up form) -->
-<!-- <div id="id02" class="modal">
-        <span onclick="document.getElementById('id02').style.display='none'" class="close" title="Close Modal"></span>
-        <form class="modal-content" action="includes/signup.inc.php" method="POST">
-            <div class="container">
-                <p>Моля, попълнете формата, за да създадете профил.</p>
-                <hr>
-
-                <label for="first"><b>Име</b></label>
-                <input type="text" placeholder="Име" name="first" required>
-
-                <label for="last"><b>Фамилия</b></label>
-                <input type="text" placeholder="Фамилия" name="last" required>
-
-                <label for="uid"><b>Потребителско име</b></label>
-                <input type="text" placeholder="Потребителско име" name="uid" required>
-
-                <label for="email"><b>E-mail</b></label>
-                <input type="text" placeholder="E-mail" name="email" required>
-
-                <label for="pwd"><b>Парола</b></label>
-                <input type="password" placeholder="Парола" name="pwd" required>
-
-                <label>
-                    <input type="checkbox" checked="checked" name="remember" style="margin-bottom:15px"> Запомни ме
-                </label>
-
-                <p>By creating an account you agree to our <a href="#" style="color:dodgerblue">Terms & Privacy</a>.</p>
-
-                <div class="clearfix">
-                    <button type="button" onclick="document.getElementById('id02').style.display='none'" class="cancelbtn">Откажи се</button>
-                    <button type="submit" name="submit">Регистрирай се</button>
-                </div>
-            </div>
-        </form>
-    </div>
-    </div>
+		</div>
+	</header>
 
 
-    <script>
-        var modal = document.getElementById('id01');
+	<article class="card">
+		<div class="card__wrapper">
 
-        // When the user clicks anywhere outside of the modal, close it
-        window.onclick = function(event) {
-            if (event.target == modal) {
-                modal.style.display = "none";
-            }
-        }
+			<figure class="card__feature">
+				<img src="https://www.dropbox.com/s/z7gp2vanse5djxf/waves.jpg?raw=1" class="card__img" alt="waves" width="275" height="240">
+			</figure>
 
-        var modal = document.getElementById('id02');
+			<div class="card__box">
 
-        // When the user clicks anywhere outside of the modal, close it
-        window.onclick = function(event) {
-            if (event.target == modal) {
-                modal.style.display = "none";
-            }
-        }
+				<header class="card__item card__header">
+					<h6 class="card__item card__item--small card__label">Featured</h6>
+					<h2 class="card__item card__item--small card__title">Как да научим английски по-бързо</h2>
+				</header>
 
-    </script> -->
+				<hr class="card__item card__divider">
 
-<article class="card">
-    <div class="card__wrapper">
+				<section class="card__item card__body">
+					<p>Прочете съвети за ученето на английски, дадени от учители.</p>
+				</section>
 
-        <figure class="card__feature">
-            <img src="https://www.dropbox.com/s/z7gp2vanse5djxf/waves.jpg?raw=1" class="card__img" alt="waves" width="275" height="240">
-        </figure>
+			</div>
 
-        <div class="card__box">
+		</div>
+	</article>
 
-            <header class="card__item card__header">
-                <h6 class="card__item card__item--small card__label">Featured</h6>
-                <h2 class="card__item card__item--small card__title">Blue Ocean Waves Crash</h2>
-            </header>
+	<article class="card">
+		<div class="card__wrapper">
 
-            <hr class="card__item card__divider">
+			<figure class="card__feature">
+				<img src="https://www.dropbox.com/s/r06tebu17sjfcca/bridge.jpg?raw=1" class="card__img" alt="Bridge" width="275" height="240">
+			</figure>
 
-            <section class="card__item card__body">
-                <p>See the beautiful oceans of the Pacific coast where the water is so clean you can see the sand.</p>
-            </section>
+			<div class="card__box">
 
-        </div>
+				<header class="card__item card__header">
+					<h6 class="card__item card__item--small card__label">Featured</h6>
+					<h2 class="card__item card__item--small card__title">Как четенето на книги помага при ученето на английски?</h2>
+				</header>
 
-    </div>
-</article>
+				<hr class="card__item card__divider">
 
-<article class="card">
-    <div class="card__wrapper">
+				<section class="card__item card__body">
+					<p>Разберете какво прави книгите най-подходящото средство за учене на език.</p>
+				</section>
 
-        <figure class="card__feature">
-            <img src="https://www.dropbox.com/s/r06tebu17sjfcca/bridge.jpg?raw=1" class="card__img" alt="Bridge" width="275" height="240">
-        </figure>
+			</div>
 
-        <div class="card__box">
+		</div>
+	</article>
+	
+	<article class="card">
+		<div class="card__wrapper">
 
-            <header class="card__item card__header">
-                <h6 class="card__item card__item--small card__label">Featured</h6>
-                <h2 class="card__item card__item--small card__title">Long Exposure River Bridge</h2>
-            </header>
+			<figure class="card__feature">
+				<img src="https://www.dropbox.com/s/z7gp2vanse5djxf/waves.jpg?raw=1" class="card__img" alt="waves" width="275" height="240">
+			</figure>
 
-            <hr class="card__item card__divider">
+			<div class="card__box">
 
-            <section class="card__item card__body">
-                <p>Long exposure photography is when you leave the shutter open longers than usual to pick up more light.</p>
-            </section>
+				<header class="card__item card__header">
+					<h6 class="card__item card__item--small card__label">Featured</h6>
+					<h2 class="card__item card__item--small card__title">Как да научим английски по-бързо</h2>
+				</header>
 
-        </div>
+				<hr class="card__item card__divider">
 
-    </div>
-</article>
+				<section class="card__item card__body">
+					<p>Прочете съвети за ученето на английски, дадени от учители.</p>
+				</section>
+
+			</div>
+
+		</div>
+	</article>
+
+	<!-- Slideshow container -->
+	<div class="slideshow-container">
+
+		<!-- Full-width images with number and caption text -->
+		<div class="mySlides fade">
+
+			<img src="img/fact1.jpg" style="width:100%">
+
+		</div>
+
+		<div class="mySlides fade">
+
+			<img src="img/fact2.jpg" style="width:100%">
+
+		</div>
+
+		<div class="mySlides fade">
+
+			<img src="img/fact3.jpg" style="width:100%">
+
+		</div>
 
 
-<!--<header>
+	</div>
+
+
+	<script>
+		var slideIndex = 0;
+		showSlides();
+
+		function showSlides() {
+			var i;
+			var slides = document.getElementsByClassName("mySlides");
+			for (i = 0; i < slides.length; i++) {
+				slides[i].style.display = "none";
+			}
+			slideIndex++;
+			if (slideIndex > slides.length) {
+				slideIndex = 1
+			}
+			slides[slideIndex - 1].style.display = "block";
+			setTimeout(showSlides, 4000); // Change image every 2 seconds
+		}
+
+	</script>
+
+	<!--<header>
         <div class="overlay">
             <h1>Научете английски!</h1>
             <h3>Причини да ни изберете</h3>
@@ -129,6 +149,6 @@
         </div>
     </header>-->
 
-<?php
+	<?php
     require "footer.php";
 ?>

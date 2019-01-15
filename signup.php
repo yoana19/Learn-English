@@ -2,11 +2,12 @@
     require "header.php";
 ?>
 
-<main>
-    <div>
-        <section>
-            <h1>Регистрация</h1>
-            <?php
+	<main>
+		<div>
+			<section>
+				<p class="signupTxt">Регистрация
+					<p>
+						<?php
             
                 if (isset($_GET["error"])) {
                     
@@ -36,24 +37,29 @@
                         
                     } 
                     
-                } else if ($_GET["signup"] == "success") {
+                } else if (isset($_GET["signup"]) == "success") {
                     
                     echo '<p class="signupsuccess">Регистрацията е успешна!</p>';
                     
                 }
             
             ?>
-            <form action="includes/signup.inc.php" method="post">
-                <input type="text" name="uid" placeholder="Потребителско име">
-                <input type="text" name="mail" placeholder="E-mail">
-                <input type="password" name="pwd" placeholder="Парола">
-                <input type="password" name="pwd-repeat" placeholder="Повтори парола">
-                <button type="submit" name="signup-submit">Регистрация</button>
-            </form>
-        </section>
-    </div>
-</main>
+							<form action="includes/signup.inc.php" method="post">
 
-<?php
+								
+									<input class="signup" type="text" name="uid" placeholder="Потребителско име">
+									<input class="signup" type="text" name="mail" placeholder="E-mail">
+									<input class="signup" type="password" name="pwd" placeholder="Парола">
+									<input class="signup" type="password" name="pwd-repeat" placeholder="Повтори парола">
+								
+								<div class="signupDiv">
+									<button class="signupBtn" type="submit" name="signup-submit">Регистрация</button>
+								</div>
+							</form>
+			</section>
+		</div>
+	</main>
+
+	<?php
     require "footer.php";
 ?>

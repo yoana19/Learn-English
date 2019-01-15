@@ -1,4 +1,4 @@
-.lessonHeader {
+/*.lessonHeader {
     align-items: center;
     display: flex;
     height: 300px;
@@ -78,7 +78,8 @@ h3 span {
 }
 
 /* Animations */
-@keyframes fade-slide-down {
+
+/*@keyframes fade-slide-down {
     0% {
         opacity: 0;
         transform: translateY(-4rem);
@@ -136,7 +137,8 @@ h3 span {
 /*---------------------------------*/
 
 /* Dropdown Button */
-.dropbtn {
+
+/*.dropbtn {
   background-color: #a97070;
   color: white;
   padding: 16px;
@@ -149,13 +151,15 @@ h3 span {
 }
 
 /* The container <div> - needed to position the dropdown content */
-.dropdown {
+
+/*.dropdown {
   position: relative;
   display: inline-block;
 }
 
 /* Dropdown Content (Hidden by Default) */
-.dropdown-content {
+
+/*.dropdown-content {
   display: none;
   position: absolute;
   background-color: #f1f1f1;
@@ -165,7 +169,8 @@ h3 span {
 }
 
 /* Links inside the dropdown */
-.dropdown-content a {
+
+/*.dropdown-content a {
   color: black;
   padding: 12px 16px;
   text-decoration: none;
@@ -173,10 +178,15 @@ h3 span {
 }
 
 /* Change color of dropdown links on hover */
-.dropdown-content a:hover {background-color: #ddd;}
+
+/*.dropdown-content a:hover {background-color: #ddd;}
 
 /* Show the dropdown menu on hover */
-.dropdown:hover .dropdown-content {display: block;}
+
+/*.dropdown:hover .dropdown-content {display: block;}
 
 /* Change the background color of the dropdown button when the dropdown content is shown */
-.dropdown:hover .dropbtn {background-color: #9f6060;}
+
+/*.dropdown:hover .dropbtn {background-color: #9f6060;}
+*/
+
