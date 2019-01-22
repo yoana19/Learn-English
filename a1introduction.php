@@ -3,108 +3,23 @@
 	include'includes/dbh.inc.php'
  ?>
 
-	<header class="lessonHeader">
+	<!--<header class="lessonHeader">
 		<div id="header-content">
 			<h1>Introduce Yourself №1</h1>
 			<h3>Представи се</h3>
 		</div>
-	</header>
-	<br>
-	<table align="left">
-		<thead>
-			<tr>
-				<th>Vocabulary</th>
-				<th>Речник</th>
-			</tr>
-		</thead>
-		<tbody>
-			<tr>
-				<td>Hello! (formal)<br>Hi! (informal)</td>
-				<td>Здравейте! (официално)<br>Здрасти! (неофициално)</td>
+	</header>-->
 
-			</tr>
-			<tr>
-				<td>My name is..</td>
-				<td>Моето име е..</td>
+	<div class="sandbox sandbox-correct-pronounciation">
+		<h1 class="heading heading-correct-pronounciation">
+			A1
+			<em>Introduce Yourself</em> Представи се
+		</h1>
+	</div>
 
-			</tr>
-			<tr>
-				<td>What is your name?</td>
-				<td>Как се казваш?</td>
-
-			</tr>
-			<tr>
-				<td>Nice to meet you!</td>
-				<td>Приятно ми е да се запознаем!</td>
-
-			</tr>
-			<tr>
-				<td>Where are your from?</td>
-				<td>Откъде си?</td>
-
-			</tr>
-			<tr>
-				<td>I am from..</td>
-				<td>Аз съм от..</td>
-
-			</tr>
-			<tr>
-				<td>How are you?</td>
-				<td>Как си?</td>
-
-			</tr>
-			<tr>
-				<td>I am fine.</td>
-				<td>Добре съм.</td>
-
-			</tr>
-			<tr>
-				<td>I am not fine.</td>
-				<td>Не съм добре.</td>
-
-			</tr>
-			<tr>
-				<td>Bye!</td>
-				<td>Чао!</td>
-
-			</tr>
-			<tr>
-				<td>Goodbye!</td>
-				<td>Довиждане!</td>
-
-			</tr>
-		</tbody>
-	</table>
 
 	<br>
-	<br>
-	<br>
-	<br>
-	<br>
-	<br>
-	<br>
-	<br>
-	<br>
-	<br>
-	<br>
-	<br>
-	<br>
-	<br>
-	<br>
-	<br>
-	<br>
-	<br>
-	<br>
-	<br>
-	<br>
-	<br>
-	<br>
-	<br>
-	<br>
-	<br>
-	<br>
-	<br>
-	<br>
+	<iframe src="https://onedrive.live.com/embed?cid=E67130032F1B0371&amp;resid=E67130032F1B0371%211494&amp;authkey=AOf5G5azmzNiw0g&amp;em=2&amp;wdAr=1.7777777777777777" width="1186px" height="691px" align="center" frameborder="0">This is an embedded <a target="_blank" href="https://office.com">Microsoft Office</a> presentation, powered by <a target="_blank" href="https://office.com/webapps">Office Online</a>.</iframe>
 
 	<div class="container">
 		<img src="img/man.png" alt="Man">
@@ -129,10 +44,10 @@
 		<p>I am <input type="text" id="anw4" class="anw" size="10"> Australia.</p>
 		<span class="time-left">10:48</span>
 	</div>
-	
+
 	<div class="checkBtn">
-	<button id="check" class="chatbtn" onclick="check()">Провери</button>
-	<button id="reset" class="chatbtn" onclick="reset()">Отново</button>
+		<button id="check" class="chatbtn" onclick="check()">Провери</button>
+		<button id="reset" class="chatbtn" onclick="reset()">Отново</button>
 	</div>
 
 	<script>

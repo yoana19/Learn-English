@@ -10,7 +10,10 @@
 				<form action="diagnostic-test.php">
 				<button class="diagnosticBtn">Започни</button>	
 				</form>
+				
 			</div>
+
+
 
 		</div>
 	</header>
@@ -65,7 +68,7 @@
 
 		</div>
 	</article>
-	
+
 	<article class="card">
 		<div class="card__wrapper">
 

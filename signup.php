@@ -44,6 +44,7 @@
                 }
             
             ?>
+            				<div class="signupDi">
 							<form action="includes/signup.inc.php" method="post">
 
 								
@@ -56,6 +57,7 @@
 									<button class="signupBtn" type="submit" name="signup-submit">Регистрация</button>
 								</div>
 							</form>
+							</div>
 			</section>
 		</div>
 	</main>

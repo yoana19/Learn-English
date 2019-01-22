@@ -443,7 +443,7 @@ table {
 }
 
 thead th {
-	background: #d9b38c;
+	background: #f2b632;
 	color: #FFF;
 	font-family: 'Montserrat', sans-serif;
 	font-size: 16px;
@@ -481,7 +481,7 @@ td {
 	font-family: 'Montserrat', sans-serif;
 	font-size: 20px;
 	text-align: center;
-
+	
 }
 
 /* Darker chat container */
@@ -599,19 +599,20 @@ td {
 /*--------------*/
 
 .signup {
-	width: 50%;
 	height: 40px;
 	padding: 10px;
-	display: inline-block;
 	border: none;
 	border-radius: 20px;
 	box-sizing: border-box;
 	display: block;
+	
+	width: 40%;
 	margin: 20px;
+	display: block;
 }
 
 .signupTxt {
-	text-align: center;
+	text-align: left;
 	font-size: 40px;
 	color: #ffffff;
 }
@@ -634,13 +635,25 @@ td {
 }
 
 .signupDiv {
-	text-align: center;
-	
+	min-height: 300px;
+    position: relative;
+  	text-align: center;
+
 }
 
 .signupDi {
-	margin-left: 450px;
+	text-align: center;
+	
+	
 }
+
+.signupForm {
+	display: inline-block;
+  padding: 20px;
+  border:1px solid red;
+	
+}
+
 
 /*----------*/
 
@@ -845,9 +858,7 @@ label {
 	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
 }
 
-input {
-	
-}
+input {}
 
 .headerDiag {
 	color: #ffffff;
@@ -884,3 +895,66 @@ input {
 	color: #ffffff;
 	font-size: 14px;
 }
+
+/*--------*/
+
+@import url(https://fonts.googleapis.com/css?family=EB+Garamond|Cardo:400italic);
+
+
+
+
+.sandbox-correct-pronounciation {
+  padding: 10em 0 10em 0;
+}
+
+.heading-correct-pronounciation {
+
+  margin: auto;
+  text-align: center;
+  position: relative;
+}
+
+
+h1 {
+  color: #fff;
+  font-family: 'Cardo', serif;
+  font-size: 1.5em;
+  font-weight: normal;
+  font-style: italic;
+  letter-spacing: 0.1em;
+  line-height: 2.2em;
+}
+
+em {
+  font-family: 'EB Garamond', serif;
+  font-size: 3.5em;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  display: block;
+  font-style:normal;
+  padding-top: 0.1em;
+  text-shadow: 0.07em 0.07em 0 rgba(0, 0, 0, 0.1);
+  
+  &::before, &::after {
+  content: "§";
+  display: inline-block;
+  -webkit-transform: rotate(90deg);
+  -moz-transform: rotate(90deg);
+  -o-transform: rotate(90deg);
+  -ms-transform: rotate(90deg);
+  transform: rotate(90deg);
+  opacity: 0.2;
+  margin: 0 0.6em;
+  font-size: 0.5em;
+}
+
+}
+
+
+.bottom {
+  font-size: 1.5em;
+  letter-spacing: 0.07em;
+  font-size: 1em;
+  display: block;
+}
+
