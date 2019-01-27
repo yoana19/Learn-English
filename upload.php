@@ -22,7 +22,7 @@ if (isset($_POST['photo-submit'])) {
             if ($fileSize < 100000) {
                 
                 $fileNameNew = uniqid('', true).".".$fileActualExt;
-                $fileDestination = 'uploads/'.$fileNameNew;
+                $fileDestination = 'img/uploads/'.$fileNameNew;
                 move_uploaded_file($fileTmpName, $fileDestination);
                 header("Location: profilepage.php?uploadsuccess");
                 
