@@ -908,8 +908,6 @@ label {
     font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
 }
 
-input {}
-
 .headerDiag {
     color: #ffffff;
     text-align: center;
@@ -917,6 +915,8 @@ input {}
 
 .quDiag {
     text-align: center;
+	font-size: 20px;
+	color: #252839;
 }
 
 .diagBtn {
