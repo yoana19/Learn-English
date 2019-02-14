@@ -27,7 +27,7 @@
                 <a href="#"><span class="text">&nbsp;Меню</span></a>
             </div>
         </nav>
-        <a class="logo" href="index.php">EnglishKo</a>
+        <a class="logo" display="block" href="index.php">EnglishKo</a>
 
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js">
 
@@ -35,7 +35,7 @@
 
         <script>
             $().ready(function() {
-                // menu button for top nav
+                // menu button for top nav 
                 $('.menu-button a').click(function(e) {
                     e.preventDefault();
                     $('nav ul.main-nav').toggleClass('active');
@@ -54,9 +54,13 @@
 
                      if(isset($_SESSION['userId'])) {
 
-                        echo '<form action="includes/logout.inc.php" method="post">
+                        echo '<form action="profilepage.php">
+    					<input class="signbtn" type="submit" value="Профил" />
+						</form>
+						<form action="includes/logout.inc.php" method="post">
                         <button class="signbtn" type="submit" name="logout-submit">Излез</button>
-                        </form>';
+                        </form>
+						';
 
                      } else {
 
