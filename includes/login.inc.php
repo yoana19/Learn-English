@@ -6,6 +6,7 @@ if(isset($_POST['login-submit'])) {
     
     $mailuid = $_POST['mailuid'];
     $password = $_POST['pwd'];
+	$experience = $_POST['xp'];
     
     if (empty($mailuid) || empty($password)) {
         
@@ -39,6 +40,7 @@ if(isset($_POST['login-submit'])) {
                     session_start();
                     $_SESSION['userId'] = $row['idUsers'];
                     $_SESSION['userUid'] = $row['uidUsers'];
+					$_SESSION['userXp'] = $row['xpUsers'];
                     
                     header("Location: ../profilepage.php?login=success");
                     exit();
