@@ -24,6 +24,8 @@
     <button class="signbtn" type="submit" name="bookmark-add">Добави</button>
 </form>'-->
 
+
+
 	<button id="add" class="chatbtn" onclick="add()">Провери</button>
 
 	<form action="includes/xp.inc.php" method="post">
@@ -127,13 +129,13 @@
 				}
 			}
 		}
-		
+
 		function add() {
-			
+
 			<?php 
 	  		$experience = ($experience + 100); 
 			?>
-			
+
 		}
 
 	</script>
