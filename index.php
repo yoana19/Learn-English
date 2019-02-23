@@ -20,7 +20,7 @@
 
 <header class="headerHome">
     <section>
-        <img src="https://cssanimation.rocks/levelup/public/images/rocky-dashed.svg" class="rocky-dashed">
+        <img src="img/background.png" class="rocky-dashed">
         <h1 class="header-title">EnglishKo</h1>
         <h3 class="header-subtitle">Научете английски лесно и бързо</h3>
         <p class="header-button"><a href="diagnostic-test.php" class="button">Започнете</a></p>

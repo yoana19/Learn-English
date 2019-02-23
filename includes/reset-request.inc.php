@@ -31,7 +31,7 @@ if (isset($_POST["reset-request-submit"])) {
 		exit();
 	} else {
 		$hashedToken = password_hash($token, PASSWORD_DEFAULT);
-		mysqli_stmt_bind_param($stmt, "ssss", $userEmail, $selector, $expires);
+		mysqli_stmt_bind_param($stmt, "sss", $userEmail, $selector, $expires);
 		mysqli_stmt_execute($stmt);
 	}
 	
@@ -46,8 +46,8 @@ if (isset($_POST["reset-request-submit"])) {
 	на паролата е отдолу. Ако не сте направили тази заявка, може да
 	игнорирате това съобщение. Това е линкът за обвновяне на паролата: </br><a href="' .$url . '">' . $url . '</a></p>';
 	
-	$headers = 'От: EnglishKo <englishko@net.ee>\r\n';
-	$headers = 'Отговори на: englishko@net.ee\r\n';
+	$headers = 'От: EnglishKo <no-reply@englishko.com>\r\n';
+	$headers = 'Отговори на: no-reply@englishko.com\r\n';
 	$headers = 'Content-type: text/html\r\n';
 	
 	mail($to, $subject, $message, $headers);
