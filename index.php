@@ -20,7 +20,7 @@
 
 <header class="headerHome">
     <section>
-        <img src="img/background.png" class="rocky-dashed">
+        <img src="https://cssanimation.rocks/levelup/public/images/rocky-dashed.svg" class="rocky-dashed">
         <h1 class="header-title">EnglishKo</h1>
         <h3 class="header-subtitle">Научете английски лесно и бързо</h3>
         <p class="header-button"><a href="diagnostic-test.php" class="button">Започнете</a></p>
@@ -47,11 +47,11 @@
 </script>
 
 <div class="icon-bar">
-  <a href="#" class="facebook"><i class="fa fa-facebook"></i></a> 
-  <a href="#" class="twitter"><i class="fa fa-twitter"></i></a> 
-  <a href="#" class="google"><i class="fa fa-google"></i></a> 
-  <a href="#" class="linkedin"><i class="fa fa-linkedin"></i></a>
-  <a href="#" class="youtube"><i class="fa fa-youtube"></i></a> 
+    <a href="#" class="facebook"><i class="fa fa-facebook"></i></a>
+    <a href="#" class="twitter"><i class="fa fa-twitter"></i></a>
+    <a href="#" class="google"><i class="fa fa-google"></i></a>
+    <a href="#" class="linkedin"><i class="fa fa-linkedin"></i></a>
+    <a href="#" class="youtube"><i class="fa fa-youtube"></i></a>
 </div>
 
 <div id="target"></div>
