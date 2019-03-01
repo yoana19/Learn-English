@@ -42,6 +42,7 @@ if(isset($_POST['login-submit'])) {
                     $_SESSION['userUid'] = $row['uidUsers'];
 					$_SESSION['userXp'] = $row['xpUsers'];
 					$_SESSION['userLvl'] = $row['lvlUsers'];
+                    $id = $_SESSION['userId'];
                     header("Location: ../profilepage.php?login=success");
                     exit();
                     
