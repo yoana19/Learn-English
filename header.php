@@ -70,6 +70,7 @@
                 <li><a href="index.php">Начална страница</a></li>
                 <li><a href="levelchoosing.php">Нива</a></li>
                 <li><a href="vocabulary.php">Лексика</a></li>
+                <li><a href="blog.php">Блог</a></li>
                 <li><a href="about.php">За нас</a></li>
                 <li><a href="contact.php">Контакти</a></li>
             </ul>
