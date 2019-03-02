@@ -106,8 +106,7 @@
 
 /*----------------------*/
 
-h2,
-h3 {
+.h2books, .h3books {
     font-family: 'Montserrat', sans-serif;
 }
 
@@ -119,21 +118,18 @@ h1 {
     margin: 0 0 65px 0;
 }
 
-h2 {
+.h2books {
     font-size: 1.6em;
     margin: 0 30px 5px 30px;
     text-transform: uppercase;
 }
 
-h3 {
+.h3books {
     font-size: 0.9em;
     margin: 0 30px 5px 30px;
     text-transform: uppercase;
 }
 
-p {
-    margin: 0 30px 0 30px;
-}
 
 #grid {
     margin: auto;
@@ -222,13 +218,7 @@ img {
     padding: 2vh;
 }
 
-h1 {
-    font-family: 'Modak', cursive;
-    font-size: 16vh;
-    margin-top: 3vh;
-}
-
-p {
+.homeP {
     text-align: center;
     font-family: 'Carter One', cursive;
     font-size: 3.5vh;
