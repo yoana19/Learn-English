@@ -8,6 +8,7 @@
 <head>
     <title></title>
     <link rel="stylesheet" type="text/css" href="main.css">
+    <link rel="stylesheet" type="text/css" href="main2.css">
     <meta http-equiv="Content-Type" content="text/html;charset=UTF-8" />
 
 	  <script type="text/javascript" src="player.js"></script>
