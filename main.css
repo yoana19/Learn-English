@@ -16,7 +16,7 @@ body {
     font-size: 120%;
     font-family: 'Montserrat', sans-serif;
     line-height: 1.5;
-    background-image: url(img/asteroids.jpg);
+    background-image: url(img/watermelons5.png);
 }
 
 
@@ -887,7 +887,7 @@ em {
     font-style: normal;
     padding-top: 0.1em;
     text-shadow: 0.07em 0.07em 0 rgba(0, 0, 0, 0.1);
-	color: white;
+    color: white;
 
     &::before,
     &::after {

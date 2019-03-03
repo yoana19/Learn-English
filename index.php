@@ -29,9 +29,14 @@
 </header>-->
 <a class="homeTitle">Научете английски днес.</a>
 
-<a class="homeBtn" href="signup.php" data-title="Започни">
-    Започни
+<a class="homeBtn" href="signup.php" data-title="Начало">
 </a>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
 <br>
 <br>
 <br>
@@ -78,16 +83,12 @@
     <li class="span3 homeLi">
         <p class="homeP">Учете, упражнявайте и печелете точки</p>
     </li>
-    <li class="span3 homeLi">
+    <li class="span4 homeLi">
         <p class="homeP">Геймификация</p>
     </li>
     <li class="span4 homeLi">
         <p class="homeP">"Аз никога не съм бил силен в езиците. Видимо, затова и не обичам да пътешествам." - Мат Хейг</p>
     </li>
-
-
-
-
     <li class="span3 homeLi">
         <p class="homeP">64% от българите смятат английския за полезен</p>
     </li>
@@ -157,7 +158,7 @@ Jen Simmons: http://labs.jensimmons.com/
         </div>
         <div class="photo"><img src="https://andybarefoot.com/codepen/images/albums/01.jpg"></div>
     </div>
-  <div class="smallgrid">
+    <div class="smallgrid">
         <div class="desc">
             <div class="textHolder">
                 <h3 class="h3books">001: Radiohead</h3>
@@ -167,7 +168,7 @@ Jen Simmons: http://labs.jensimmons.com/
         </div>
         <div class="photo"><img src="https://andybarefoot.com/codepen/images/albums/01.jpg"></div>
     </div>
-	<div class="smallgrid">
+    <div class="smallgrid">
         <div class="desc">
             <div class="textHolder">
                 <h3 class="h3books">001: Radiohead</h3>
@@ -177,7 +178,7 @@ Jen Simmons: http://labs.jensimmons.com/
         </div>
         <div class="photo"><img src="https://andybarefoot.com/codepen/images/albums/01.jpg"></div>
     </div>
-	<div class="smallgrid">
+    <div class="smallgrid">
         <div class="desc">
             <div class="textHolder">
                 <h3 class="h3books">001: Radiohead</h3>
@@ -187,7 +188,7 @@ Jen Simmons: http://labs.jensimmons.com/
         </div>
         <div class="photo"><img src="https://andybarefoot.com/codepen/images/albums/01.jpg"></div>
     </div>
-	<div class="smallgrid">
+    <div class="smallgrid">
         <div class="desc">
             <div class="textHolder">
                 <h3 class="h3books">001: Radiohead</h3>
@@ -197,7 +198,7 @@ Jen Simmons: http://labs.jensimmons.com/
         </div>
         <div class="photo"><img src="https://andybarefoot.com/codepen/images/albums/01.jpg"></div>
     </div>
-	<div class="smallgrid">
+    <div class="smallgrid">
         <div class="desc">
             <div class="textHolder">
                 <h3 class="h3books">001: Radiohead</h3>
@@ -208,28 +209,28 @@ Jen Simmons: http://labs.jensimmons.com/
         <div class="photo"><img src="https://andybarefoot.com/codepen/images/albums/01.jpg"></div>
     </div>
 
-<script>
-    function alternate() {
-        colsno = window.getComputedStyle(document.getElementById("grid")).gridTemplateColumns.split(' ').length;
-        smallgrids = document.getElementsByClassName("smallgrid");
-        for (i = 0; i < smallgrids.length; i++) {
-            thisrow = Math.floor(i / colsno);
-            thiscol = i % colsno;
-            if ((thisrow + thiscol) % 2 == 1) {
-                smallgrids[i].setAttribute('class', 'smallgrid even');
-            } else {
-                smallgrids[i].setAttribute('class', 'smallgrid odd');
+    <script>
+        function alternate() {
+            colsno = window.getComputedStyle(document.getElementById("grid")).gridTemplateColumns.split(' ').length;
+            smallgrids = document.getElementsByClassName("smallgrid");
+            for (i = 0; i < smallgrids.length; i++) {
+                thisrow = Math.floor(i / colsno);
+                thiscol = i % colsno;
+                if ((thisrow + thiscol) % 2 == 1) {
+                    smallgrids[i].setAttribute('class', 'smallgrid even');
+                } else {
+                    smallgrids[i].setAttribute('class', 'smallgrid odd');
+                }
             }
         }
-    }
 
-    window.onload = alternate();
-    window.addEventListener("resize", alternate);
+        window.onload = alternate();
+        window.addEventListener("resize", alternate);
 
-</script>
-
+    </script>
 
 
-<?php
+
+    <?php
     require "footer.php";
 ?>
