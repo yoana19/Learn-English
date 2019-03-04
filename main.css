@@ -763,6 +763,17 @@ button:hover {
 .vocabHeaders {
     color: #ffffff;
     text-align: center;
+    vertical-align: middle;
+}
+
+.imgVocDiv {
+
+    background-image: url(img/canvas-orange.jpg);
+}
+
+.animals {
+
+    background-color: #802000;
 }
 
 .creditsDiv {

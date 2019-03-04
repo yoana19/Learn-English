@@ -51,8 +51,8 @@
 
 .homeBtn {
     position: absolute;
-    top: 70%;
-    right: 15%;
+    top: 80%;
+    right: 10%;
     transform: translate(-50%, -50%);
     width: 180px;
     height: 60px;
@@ -652,4 +652,29 @@ body {
     line-height: 48px;
     margin-bottom: 48px;
     max-width: 650px;
+}
+
+/*----------------------------*/
+
+.tooltip {
+    position: relative;
+    display: inline-block;
+}
+
+.tooltip .tooltiptext {
+    visibility: hidden;
+    width: 400px;
+    background-color: #252839;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 0;
+
+    /* Position the tooltip */
+    position: absolute;
+    z-index: 1;
+}
+
+.tooltip:hover .tooltiptext {
+    visibility: visible;
 }

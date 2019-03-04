@@ -123,114 +123,12 @@
 </div>
 
 <!--<div id="target"></div>-->
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-
-<!-- 
-For CSS Grid expertise:
-Rachel Andrew: https://gridbyexample.com/
-Jen Simmons: http://labs.jensimmons.com/
- -->
-<div id="grid">
-    <div class="smallgrid">
-        <div class="desc">
-            <div class="textHolder">
-                <h3 class="h3books">001: Radiohead</h3>
-                <h2 class="h2books">OK Computer</h2>
-                <p>[1997 / Capitol]</p>
-            </div>
-        </div>
-        <div class="photo"><img src="https://andybarefoot.com/codepen/images/albums/01.jpg"></div>
-    </div>
-    <div class="smallgrid">
-        <div class="desc">
-            <div class="textHolder">
-                <h3 class="h3books">001: Radiohead</h3>
-                <h2 class="h2books">OK Computer</h2>
-                <p>[1997 / Capitol]</p>
-            </div>
-        </div>
-        <div class="photo"><img src="https://andybarefoot.com/codepen/images/albums/01.jpg"></div>
-    </div>
-    <div class="smallgrid">
-        <div class="desc">
-            <div class="textHolder">
-                <h3 class="h3books">001: Radiohead</h3>
-                <h2 class="h2books">OK Computer</h2>
-                <p>[1997 / Capitol]</p>
-            </div>
-        </div>
-        <div class="photo"><img src="https://andybarefoot.com/codepen/images/albums/01.jpg"></div>
-    </div>
-    <div class="smallgrid">
-        <div class="desc">
-            <div class="textHolder">
-                <h3 class="h3books">001: Radiohead</h3>
-                <h2 class="h2books">OK Computer</h2>
-                <p>[1997 / Capitol]</p>
-            </div>
-        </div>
-        <div class="photo"><img src="https://andybarefoot.com/codepen/images/albums/01.jpg"></div>
-    </div>
-    <div class="smallgrid">
-        <div class="desc">
-            <div class="textHolder">
-                <h3 class="h3books">001: Radiohead</h3>
-                <h2 class="h2books">OK Computer</h2>
-                <p>[1997 / Capitol]</p>
-            </div>
-        </div>
-        <div class="photo"><img src="https://andybarefoot.com/codepen/images/albums/01.jpg"></div>
-    </div>
-    <div class="smallgrid">
-        <div class="desc">
-            <div class="textHolder">
-                <h3 class="h3books">001: Radiohead</h3>
-                <h2 class="h2books">OK Computer</h2>
-                <p>[1997 / Capitol]</p>
-            </div>
-        </div>
-        <div class="photo"><img src="https://andybarefoot.com/codepen/images/albums/01.jpg"></div>
-    </div>
-
-    <script>
-        function alternate() {
-            colsno = window.getComputedStyle(document.getElementById("grid")).gridTemplateColumns.split(' ').length;
-            smallgrids = document.getElementsByClassName("smallgrid");
-            for (i = 0; i < smallgrids.length; i++) {
-                thisrow = Math.floor(i / colsno);
-                thiscol = i % colsno;
-                if ((thisrow + thiscol) % 2 == 1) {
-                    smallgrids[i].setAttribute('class', 'smallgrid even');
-                } else {
-                    smallgrids[i].setAttribute('class', 'smallgrid odd');
-                }
-            }
-        }
-
-        window.onload = alternate();
-        window.addEventListener("resize", alternate);
-
-    </script>
 
 
 
-    <?php
+
+
+
+<?php
     require "footer.php";
 ?>

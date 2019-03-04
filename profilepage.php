@@ -7,8 +7,8 @@
 <div class="content-profile-page">
     <div class="profile-user-page cardProfile">
         <div class="img-user-profile">
-            <img class="profile-bgHome" src="img/bg.jpg" />
-            <img class="avatar" src="https://api.adorable.io/avatars/random" alt="Steve" onload="document.getElementById('avatar2').src=this.src">
+            <img class="profile-bgHome" src="img/asteroids.jpg" />
+            <img class="avatar" src="https://api.adorable.io/avatars/random" alt="Profile Photo">
         </div>
 
         <div class="user-profile-data">
