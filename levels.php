@@ -59,27 +59,27 @@ if(isset($_GET['a1/1/1'])) {
     
 } else if (isset($_GET['a1/3/1'])) {
     
-    echo '';
+    echo '<iframe src="https://h5p.org/h5p/embed/446177" width="696" height="138" frameborder="0" allowfullscreen="allowfullscreen"></iframe><script src="https://h5p.org/sites/all/modules/h5p/library/js/h5p-resizer.js" charset="UTF-8"></script>';
     
 } else if (isset($_GET['a1/3/2'])) {
     
-    echo '';
+    echo '<iframe src="https://h5p.org/h5p/embed/446180" width="696" height="138" frameborder="0" allowfullscreen="allowfullscreen"></iframe><script src="https://h5p.org/sites/all/modules/h5p/library/js/h5p-resizer.js" charset="UTF-8"></script>';
     
 } else if (isset($_GET['a1/3/3'])) {
     
-    echo '';
+    echo '<iframe src="https://h5p.org/h5p/embed/446181" width="696" height="138" frameborder="0" allowfullscreen="allowfullscreen"></iframe><script src="https://h5p.org/sites/all/modules/h5p/library/js/h5p-resizer.js" charset="UTF-8"></script>';
     
 } else if (isset($_GET['a1/3/4'])) {
     
-    echo '';
+    echo '<iframe src="https://h5p.org/h5p/embed/446182" width="696" height="138" frameborder="0" allowfullscreen="allowfullscreen"></iframe><script src="https://h5p.org/sites/all/modules/h5p/library/js/h5p-resizer.js" charset="UTF-8"></script>';
     
 } else if (isset($_GET['a1/3/5'])) {
     
-    echo '';
+    echo '<iframe src="https://h5p.org/h5p/embed/446184" width="696" height="138" frameborder="0" allowfullscreen="allowfullscreen"></iframe><script src="https://h5p.org/sites/all/modules/h5p/library/js/h5p-resizer.js" charset="UTF-8"></script>';
     
 } else if (isset($_GET['a1/4/1'])) {
     
-    echo '';
+    echo '<iframe src="https://h5p.org/h5p/embed/446187" width="696" height="138" frameborder="0" allowfullscreen="allowfullscreen"></iframe><script src="https://h5p.org/sites/all/modules/h5p/library/js/h5p-resizer.js" charset="UTF-8"></script>';
     
 } else if (isset($_GET['a1/4/2'])) {
     
