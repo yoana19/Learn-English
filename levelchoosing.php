@@ -36,6 +36,10 @@
 
 </div>
 
+<form action="diagnostic-test.php" style="text-align:center">
+    <input type="submit" class="dropbtn" value="Диагностичен тест" />
+</form>
+
 <ul class="cd-accordion-menu animated">
     <li class="has-children">
         <input type="checkbox" name="group-1" id="group-1" checked="">

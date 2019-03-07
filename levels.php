@@ -287,6 +287,10 @@ if(isset($_GET['a1/1/1'])) {
     
     echo '<iframe src="https://h5p.org/h5p/embed/446235" width="629" height="139" frameborder="0" allowfullscreen="allowfullscreen"></iframe><script src="https://h5p.org/sites/all/modules/h5p/library/js/h5p-resizer.js" charset="UTF-8"></script>';
     
+} else {
+	
+	echo 'Не сте избрали урок!';
+	
 }
 ?>
 

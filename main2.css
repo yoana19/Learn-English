@@ -678,3 +678,18 @@ body {
 .tooltip:hover .tooltiptext {
     visibility: visible;
 }
+
+/*------------*/
+
+.bookTitle {
+	color: darkgreen;
+	font-size: 18vh;
+}
+
+.exTitle {
+	color: darkgreen;
+	font-size: 14vh;
+}
+
+/*----*/
+
