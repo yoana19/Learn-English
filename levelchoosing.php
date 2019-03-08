@@ -129,8 +129,60 @@
         <label for="group-2">A2</label>
 
         <ul>
-            <li><a href="#0">Image</a></li>
-            <li><a href="#0">Image</a></li>
+             <li class="has-children">
+                <input type="checkbox" name="sub-group-1" id="sub-group-1">
+                <label for="sub-group-1">Хайде да излезем!/Let’s get together!</label>
+
+                <ul>
+                    <li><a href="levels.php?a2/1/1">Приятели и семейство!/Friends and family!</a></li>
+                    <li><a href="levels.php?a2/1/2">Излизам в града ми/Going out in my city</a></li>
+                </ul>
+            </li>
+            <li class="has-children">
+                  <input type="checkbox" name="sub-group-2" id="sub-group-2">
+                  <label for="sub-group-2">На работа/On the job</label>
+
+                  <ul>
+                      <li><a href="levels.php?a2/2/1">Много работа!/A lot of work!</a></li>
+                      <li><a href="levels.php?a2/2/2">Търсене на работа/Looking for a job</a></li>
+                  </ul>
+              </li>
+              <li class="has-children">
+                    <input type="checkbox" name="sub-group-3" id="sub-group-3">
+                    <label for="sub-group-3">Изнасяне/Moving out</label>
+
+                    <ul>
+                        <li><a href="levels.php?a2/3/1">Новата ми къща!/My new house!</a></li>
+                        <li><a href="levels.php?a2/3/2">Изнасяме се!/We are moving out!</a></li>
+                    </ul>
+                </li>
+                <li class="has-children">
+                    <input type="checkbox" name="sub-group-4" id="sub-group-4">
+                    <label for="sub-group-4">Вечер в киното/A night at the cinema</label>
+
+                    <ul>
+                        <li><a href="levels.php?a2/4/1">Всичко за филмите!/All about films!</a></li>
+                        <li><a href="levels.php?a2/4/2">Културата в града ми/Culture in my city</a></li>
+                    </ul>
+                </li>
+                <li class="has-children">
+                    <input type="checkbox" name="sub-group-5" id="sub-group-5">
+                    <label for="sub-group-5">Гол!/Goal!</label>
+
+                    <ul>
+                        <li><a href="levels.php?a2/5/1">Спортове и игри/Sports and games</a></li>
+                        <li><a href="levels.php?a2/5/2">Оставане във форма/Staying fit</a></li>
+                    </ul>
+                </li>
+                <li class="has-children">
+                    <input type="checkbox" name="sub-group-6" id="sub-group-6">
+                    <label for="sub-group-6">Поглед в бъдещето/Looking ahead</label>
+
+                    <ul>
+                        <li><a href="levels.php?a2/6/1">Правене на планове/Making plans</a></li>
+                        <li><a href="levels.php?a2/6/2">Говорене за бъдещето/Talking about the future</a></li>
+                    </ul>
+                </li>
         </ul>
     </li>
 
@@ -138,68 +190,175 @@
         <input type="checkbox" name="group-3" id="group-3">
         <label for="group-3">B1</label>
 
-        <ul>
-            <li><a href="#0">Image</a></li>
-            <li><a href="#0">Image</a></li>
-        </ul>
-    </li>
+                <ul>
+               <li class="has-children">
+                  <input type="checkbox" name="sub-group-1" id="sub-group-1">
+                  <label for="sub-group-1">Ad campaign</label>
+
+                  <ul>
+                      <li><a href="levels.php?b1/1/1">Ad campaigns</a></li>
+                      <li><a href="levels.php?b1/1/2">The use of ‘go’, ‘play’ and ‘do’ with adverbs of frequency</a></li>
+                  </ul>
+              </li>
+              <li class="has-children">
+                    <input type="checkbox" name="sub-group-2" id="sub-group-2">
+                    <label for="sub-group-2">Subcultures</label>
+
+                    <ul>
+                        <li><a href="levels.php?b1/2/1">Urban tribes</a></li>
+                        <li><a href="levels.php?b1/2/2">Modals of deduction</a></li>
+                    </ul>
+                </li>
+                <li class="has-children">
+                      <input type="checkbox" name="sub-group-3" id="sub-group-3">
+                      <label for="sub-group-3">What shows do you watch?</label>
+
+                      <ul>
+                          <li><a href="levels.php?b1/3/1">Criticism of film and theatre</a></li>
+                          <li><a href="levels.php?b1/3/2">Verb noun collocations</a></li>
+                      </ul>
+                  </li>
+                  <li class="has-children">
+                      <input type="checkbox" name="sub-group-4" id="sub-group-4">
+                      <label for="sub-group-4">Moving abroad</label>
+
+                      <ul>
+                          <li><a href="levels.php?b1/4/1">Moving abroad can be difficult</a></li>
+                          <li><a href="levels.php?b1/4/2">More on infinitives of purpose</a></li>
+                      </ul>
+                  </li>
+                  
+          </ul>
+      </li>
 
     <li class="has-children">
         <input type="checkbox" name="group-4" id="group-4">
         <label for="group-4">B2</label>
 
         <ul>
-            <li class="has-children">
-                <input type="checkbox" name="sub-group-3" id="sub-group-3">
-                <label for="sub-group-3">Sub Group 3</label>
+             <li class="has-children">
+                    <input type="checkbox" name="sub-group-1" id="sub-group-1">
+                    <label for="sub-group-1">Interculturalism at the office</label>
 
-                <ul>
-                    <li><a href="#0">Image</a></li>
-                    <li><a href="#0">Image</a></li>
-                </ul>
-            </li>
-            <li><a href="#0">Image</a></li>
-            <li><a href="#0">Image</a></li>
+                    <ul>
+                        <li><a href="levels.php?b2/1/1">Negotiating</a></li>
+                        <li><a href="levels.php?b2/1/2">The present perfect continuous</a></li>
+                    </ul>
+                </li>
+                <li class="has-children">
+                      <input type="checkbox" name="sub-group-2" id="sub-group-2">
+                      <label for="sub-group-2">Urbanism</label>
+
+                      <ul>
+                          <li><a href="levels.php?b2/2/1">What is the ideal city?</a></li>
+                          <li><a href="levels.php?b2/2/2">American and British English: spelling</a></li>
+                      </ul>
+                  </li>
+                  <li class="has-children">
+                        <input type="checkbox" name="sub-group-3" id="sub-group-3">
+                        <label for="sub-group-3">Music Cultures</label>
+
+                        <ul>
+                            <li><a href="levels.php?b2/3/1">Writing a review of an album</a></li>
+                            <li><a href="levels.php?b2/3/2">Advanced uses of the future</a></li>
+                        </ul>
+                    </li>
+
+            </ul>
+        </li>
+
+
+    <li class="has-children">
+        <input type="checkbox" name="group-5" id="group-5">
+        <label for="group-5">C1</label>
+
+        <ul>
+            <li class="has-children">
+                    <input type="checkbox" name="sub-group-1" id="sub-group-1">
+                    <label for="sub-group-1">Music</label>
+
+                    <ul>
+                        <li><a href="levels.php?c1/1/1">Subordinating conjunctions</a></li>
+                        <li><a href="levels.php?c1/1/2">Analogies</a></li>
+                    </ul>
+                </li>
+                <li class="has-children">
+                      <input type="checkbox" name="sub-group-2" id="sub-group-2">
+                      <label for="sub-group-2">Literature</label>
+
+                      <ul>
+                          <li><a href="levels.php?c1/2/1">Future in the past</a></li>
+                          <li><a href="levels.php?c1/2/2">Admitting fault and apologising</a></li>
+                      </ul>
+                  </li>
+                  <li class="has-children">
+                        <input type="checkbox" name="sub-group-3" id="sub-group-3">
+                        <label for="sub-group-3">Mysteries and Curiosities</label>
+
+                        <ul>
+                            <li><a href="levels.php?c1/3/1">Structuring a sentence: relative clauses</a></li>
+                            <li><a href="levels.php?c1/3/2">Expressing regrets and criticisms</a></li>
+                        </ul>
+                    </li>
+                   <li class="has-children">
+                    <input type="checkbox" name="sub-group-4" id="sub-group-4">
+                    <label for="sub-group-4">Visual Arts</label>
+
+                    <ul>
+                        <li><a href="levels.php?c1/4/1">Structuring a sentence: inversion</a></li>
+                        <li><a href="levels.php?c1/4/2">Negotiating and dealing with conflict</a></li>
+                    </ul>
+                </li>
+                <li class="has-children">
+                      <input type="checkbox" name="sub-group-5" id="sub-group-5">
+                      <label for="sub-group-5">Identity and Inspiration</label>
+
+                      <ul>
+                          <li><a href="levels.php?c1/5/1">Modals in the past</a></li>
+                          <li><a href="levels.php?c1/5/2">Speculation and deduction</a></li>
+                      </ul>
+                  </li>
+                  <li class="has-children">
+                        <input type="checkbox" name="sub-group-6" id="sub-group-6">
+                        <label for="sub-group-6">Classic and contemporary folklore</label>
+
+                        <ul>
+                            <li><a href="levels.php?c1/6/1">Ellipsis</a></li>
+                            <li><a href="levels.php?c1/6/2">Making presentations and speeches</a></li>
+                        </ul>
+                    </li>
         </ul>
     </li>
 
 
     <li class="has-children">
-        <input type="checkbox" name="group-4" id="group-4">
-        <label for="group-4">C1</label>
+        <input type="checkbox" name="group-6" id="group-6">
+        <label for="group-6">C2</label>
 
         <ul>
-            <li class="has-children">
-                <input type="checkbox" name="sub-group-3" id="sub-group-3">
-                <label for="sub-group-3">Sub Group 3</label>
+             <li class="has-children">
+                <input type="checkbox" name="sub-group-1" id="sub-group-1">
+                <label for="sub-group-1">Creative Writing</label>
 
                 <ul>
-                    <li><a href="#0">Image</a></li>
-                    <li><a href="#0">Image</a></li>
+                    <li><a href="levels.php?c2/1/1">Analogies</a></li>
+                    <li><a href="levels.php?c2/1/2">Metaphors and Similes</a></li>
+                    <li><a href="levels.php?c2/1/3">Writing Headlines</a></li>
+                    <li><a href="levels.php?c2/1/4">Poetry</a></li>
+                    <li><a href="levels.php?c2/1/5">Rhetoric</a></li>
                 </ul>
             </li>
-            <li><a href="#0">Image</a></li>
-            <li><a href="#0">Image</a></li>
-        </ul>
-    </li>
-
-
-    <li class="has-children">
-        <input type="checkbox" name="group-4" id="group-4">
-        <label for="group-4">C2</label>
-
-        <ul>
             <li class="has-children">
-                <input type="checkbox" name="sub-group-3" id="sub-group-3">
-                <label for="sub-group-3">Sub Group 3</label>
+                <input type="checkbox" name="sub-group-2" id="sub-group-2">
+                <label for="sub-group-2">Grammar Basics C2</label>
 
                 <ul>
-                    <li><a href="#0">Image</a></li>
-                    <li><a href="#0">Image</a></li>
+                    <li><a href="levels.php?c2/2/1">Common Mistakes in English</a></li>
+                    <li><a href="levels.php?c2/2/2">Polishing Your Grammar</a></li>
+                    <li><a href="levels.php?c22/3">Adverb Placement</a></li>
+                    <li><a href="levels.php?c2/2/4">Homonyms</a></li>
                 </ul>
             </li>
-            <li><a href="#0">Image</a></li>
-            <li><a href="#0">Image</a></li>
         </ul>
     </li>
 </ul>
