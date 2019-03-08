@@ -20,9 +20,9 @@
 
 	<br>
 
-	<!--<form action="includes/bookmark.inc.php" method="post">
-    <button class="signbtn" type="submit" name="bookmark-add">Добави</button>
-</form>'-->
+	<form action="includes/xp.inc.php" method="post">
+    <button class="signbtn" type="submit" name="add-xp">Добави</button>
+</form>
 
 
 

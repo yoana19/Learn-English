@@ -3,20 +3,33 @@
  ?>
 
 	<main al>
-	
-		<p class="signupTxt">Свържете се с нас</p>
-		<form class="contact-form" action="contactform.php" method="post">
-		<div class="signupDi">
-			<input class="signup" type="text" name="name" placeholder="Име">
-			<input class="signup" type="text" name="mail" placeholder="E-mail">
-			<input class="signup" type="text" name="Subject" placeholder="Предмет">
-			<textarea class="signup" name="message" placeholder="Съобщение"></textarea>
-			</div>
-			<div class="signupDiv">
-			<button class="signupBtn" type="submit" name="submit">Изпрати</button>
-			</div>
-		</form>
-		
+
+		<div class="user">
+			<header class="user__header">
+				<img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/3219/logo.svg" alt="" />
+			</header>
+
+			<form class="form" action="includes/signup.inc.php" method="post">
+				<div class="form__group">
+					<input type="text" name="name" placeholder="Име" class="form__input" />
+				</div>
+
+				<div class="form__group">
+					<input type="text" name="mail" placeholder="E-mail" class="form__input" />
+				</div>
+
+				<div class="form__group">
+					<input type="text" name="Subject" placeholder="Предмет" class="form__input" />
+				</div>
+
+				<div class="form__group">
+					<input type="message" name="message" placeholder="Съобщение" class="form__input" />
+				</div>
+
+				<button class="btnsignup" type="sumbit" name="submit">Изпрати</button>
+			</form>
+		</div>
+
 	</main>
 
 

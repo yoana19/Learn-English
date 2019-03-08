@@ -46,8 +46,8 @@ if (isset($_POST["reset-request-submit"])) {
 	на паролата е отдолу. Ако не сте направили тази заявка, може да
 	игнорирате това съобщение. Това е линкът за обвновяне на паролата: </br><a href="' .$url . '">' . $url . '</a></p>';
 	
-	$headers = 'От: EnglishKo <no-reply@englishko.com>\r\n';
-	$headers = 'Отговори на: no-reply@englishko.com\r\n';
+	$headers = 'От: EnglishKo <contact@englishko.com>\r\n';
+	$headers = 'Отговори на: contact@englishko.com\r\n';
 	$headers = 'Content-type: text/html\r\n';
 	
 	mail($to, $subject, $message, $headers);

@@ -193,10 +193,7 @@ h1 {
     grid-row: 1 / 2;
 }
 
-img {
-    display: block;
-    width: 100%;
-}
+
 
 /*------------------------*/
 
@@ -693,3 +690,269 @@ body {
 
 /*----*/
 
+@import "compass/css3";
+
+@import url(http://weloveiconfonts.com/api/?family=entypo|fontawesome);
+
+/* entypo */
+[class*="entypo-"]:before {
+  font-family: 'entypo', sans-serif;
+}
+
+/* fontawesome */
+[class*="fontawesome-"]:before {
+  font-family: 'fontawesome', sans-serif;
+}
+
+
+$c-1: #3498db;
+$c-2: #34495e;
+$c-3: #ecf0f1;
+$c-4: #95a5a6;
+$c-5: #9b59b6;
+
+
+$message-margin: -2.5em -4.1em;
+$message-font-size: 0.7em;
+
+
+body {
+  background: $c-4;
+  font-family: 'Nunito', sans-serif;
+}
+
+div.conversation {
+  background: $c-2;
+  // border: 0.2em solid $c-2;
+  color: $c-3;
+  font-size: 1.3em;
+  margin: 2em auto;
+  max-width: 21em;
+  overflow: hidden;
+  
+  @include border-radius(0.4em);
+  
+  .status-bar{
+    background: rgba(255, 255, 255, 0.1);
+    color: rgba(255, 255, 255, 0.7);
+    text-align: right;
+    
+    div {
+      display: inline-block;
+    }
+    
+    .time {
+      font-size: 0.8em;
+    }
+  }
+  
+  .heading {
+    .convn-info {
+      text-align: center;
+      font-size: 2em;
+    }
+  }
+  
+  .krm {
+    background: $c-1;
+    float: left;
+    padding: 1em;
+    text-align: left;    
+    
+    @include border-radius(0 1em 1em 0);
+  }
+  
+  .luky {
+    background: $c-3;
+    color: $c-1;
+    float: right;
+    padding: 1em; 
+       
+    @include border-radius(1em 0 0 1em);
+  }
+  
+  .krm,
+  .luky {
+    clear: both;
+    margin: 0.2em 0;
+    max-width: 80%;
+    min-width: 50%;
+    
+    &:hover {
+      .message-time {
+        opacity: 1;
+      }
+    }
+  }
+  
+  .krm .message-time {
+    color: rgba($c-3, 0.5);
+    float: right;
+    font-size: $message-font-size;
+    opacity: 0;
+    position: relative;
+    margin: $message-margin;
+    
+    @include transform(rotate(90deg));
+    @include transition(0.3s all ease-in-out);
+  }
+  
+  .luky .message-time {
+    color: rgba($c-3, 0.5);
+    float: left;
+    font-size: $message-font-size;
+    opacity: 0;
+    position: relative;
+    margin: $message-margin;
+    
+    @include transform(rotate(-90deg));
+    @include transition(0.3s all ease-in-out);
+  }
+  
+  .krm .message-time:before,
+  .luky .message-time:before {
+    content: ' ' '\1f554' ' ';
+    
+    font-family: 'entypo', sans-serif;
+  }
+  
+  div:last-child {
+    margin-bottom: 0;
+  }
+  
+  ::selection {
+    background: $c-2;
+  }
+  
+  ::moz-selection {
+    background: $c-2;
+  }
+}
+
+
+
+.kaushalya {
+  bottom: 0.4em;
+  color: $c-3;
+  position: fixed;
+  right: 0.4em;
+  
+  a {
+    border-bottom: 0.1em solid;
+    color: inherit;
+    text-decoration: none;
+  }
+}
+
+/*-----------*/
+
+
+
+.user {
+    width: 90%;
+    max-width: 340px;
+    margin: 10vh auto;
+}
+
+.user__header {
+    text-align: center;
+    opacity: 0;
+    transform: translate3d(0, 500px, 0);
+    animation: arrive 500ms ease-in-out 0.7s forwards;
+}
+
+.user__title {
+    margin-bottom: -10px;
+    font-weight: 500;
+    color: white;
+}
+
+.form {
+    margin-top: 40px;
+    border-radius: 6px;
+    overflow: hidden;
+    opacity: 0;
+    transform: translate3d(0, 500px, 0);
+    animation: arrive 500ms ease-in-out 0.9s forwards;
+}
+
+.form--no {
+    animation: NO 1s ease-in-out;
+    opacity: 1;
+    transform: translate3d(0, 0, 0);
+}
+
+.form__input {
+    display: block;
+    width: 100%;
+    padding: 20px;
+ 
+    -webkit-appearance: none;
+    border: 0;
+    outline: 0;
+    transition: 0.3s;
+    
+    &:focus {
+        background: darken(#fff, 3%);
+    }
+}
+
+.btnsignup {
+    display: block;
+    width: 100%;
+    padding: 20px;
+    font-family: $font-family;
+    -webkit-appearance: none;
+    outline: 0;
+    border: 0;
+    color: white;
+    background-color: palevioletred;
+    transition: 0.3s;
+    
+    &:hover {
+        background: darken($color-primary, 5%);
+    }
+}
+
+@keyframes NO {
+  from, to {
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+  }
+
+  10%, 30%, 50%, 70%, 90% {
+    -webkit-transform: translate3d(-10px, 0, 0);
+    transform: translate3d(-10px, 0, 0);
+  }
+
+  20%, 40%, 60%, 80% {
+    -webkit-transform: translate3d(10px, 0, 0);
+    transform: translate3d(10px, 0, 0);
+  }
+}
+
+@keyframes arrive {
+    0% {
+        opacity: 0;
+        transform: translate3d(0, 50px, 0);
+    }
+    
+    100% {
+        opacity: 1;
+        transform: translate3d(0, 0, 0);
+    }
+}
+
+@keyframes move {
+    0% {
+        background-position: 0 0
+    }
+
+    50% {
+        background-position: 100% 0
+    }
+
+    100% {
+        background-position: 0 0
+    }
+}

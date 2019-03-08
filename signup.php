@@ -5,8 +5,7 @@
 	<main>
 		<div>
 			<section>
-				<p class="signupTxt">Регистрация
-					<p>
+					<br>
 						<?php
             
                 if (isset($_GET["error"])) {
@@ -44,19 +43,31 @@
                 }
             
             ?>
-            				<div class="signupDi">
-							<form action="includes/signup.inc.php" method="post">
 
-								
-									<input class="signup" type="text" name="uid" placeholder="Потребителско име">
-									<input class="signup" type="text" name="mail" placeholder="E-mail">
-									<input class="signup" type="password" name="pwd" placeholder="Парола">
-									<input class="signup" type="password" name="pwd-repeat" placeholder="Повтори парола">
-								
-								<div class="signupDiv">
-									<button class="signupBtn" type="submit" name="signup-submit">Регистрация</button>
-								</div>
-							</form>
+							<div class="user">
+								<header class="user__header">
+									<img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/3219/logo.svg" alt="" />
+								</header>
+
+								<form class="form" action="includes/signup.inc.php" method="post">
+									<div class="form__group">
+										<input type="text" name="uid" placeholder="Потребителско име" class="form__input" />
+									</div>
+
+									<div class="form__group">
+										<input type="email" name="mail" placeholder="E-mail" class="form__input" />
+									</div>
+
+									<div class="form__group">
+										<input type="password" name="pwd" placeholder="Парола" class="form__input" />
+									</div>
+									
+									<div class="form__group">
+										<input type="password" name="pwd-repeat" placeholder="Повтори парола" class="form__input" />
+									</div>
+
+									<button class="btnsignup" type="sumbit" name="signup-submit">Регистрация</button>
+								</form>
 							</div>
 			</section>
 		</div>

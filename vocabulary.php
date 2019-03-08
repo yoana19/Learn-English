@@ -1994,22 +1994,11 @@
                         <div class="flip-box">
                             <div class="flip-box-inner">
                                 <div class="flip-box-front">
-                                    <img src="img/vocab/furniture/031-lounge-chair.png" alt="Lounge Chair">
-                                </div>
-                                <div class="flip-box-back">
-                                    <h2>lounge chair</h2>
-                                    <p>(планина)</p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="flip-box">
-                            <div class="flip-box-inner">
-                                <div class="flip-box-front">
                                     <img src="img/vocab/furniture/032-mirror.png" alt="Mirror">
                                 </div>
                                 <div class="flip-box-back">
                                     <h2>mirror</h2>
-                                    <p>(планина)</p>
+                                    <p>(огледало)</p>
                                 </div>
                             </div>
                         </div>
@@ -2020,7 +2009,7 @@
                                 </div>
                                 <div class="flip-box-back">
                                     <h2>nightstand</h2>
-                                    <p>(планина)</p>
+                                    <p>(нощно шкафче)</p>
                                 </div>
                             </div>
                         </div>
@@ -2031,7 +2020,7 @@
                                 </div>
                                 <div class="flip-box-back">
                                     <h2>office chair</h2>
-                                    <p>(планина)</p>
+                                    <p>(стол за офис)</p>
                                 </div>
                             </div>
                         </div>
@@ -2042,7 +2031,7 @@
                                 </div>
                                 <div class="flip-box-back">
                                     <h2>pictures</h2>
-                                    <p>(планина)</p>
+                                    <p>(картини)</p>
                                 </div>
                             </div>
                         </div>
@@ -2053,7 +2042,7 @@
                                 </div>
                                 <div class="flip-box-back">
                                     <h2>pillow</h2>
-                                    <p>(планина)</p>
+                                    <p>(възглавница)</p>
                                 </div>
                             </div>
                         </div>
@@ -2064,7 +2053,7 @@
                                 </div>
                                 <div class="flip-box-back">
                                     <h2>plant</h2>
-                                    <p>(планина)</p>
+                                    <p>(растение)</p>
                                 </div>
                             </div>
                         </div>
@@ -2075,7 +2064,7 @@
                                 </div>
                                 <div class="flip-box-back">
                                     <h2>plant pot</h2>
-                                    <p>(планина)</p>
+                                    <p>(саксия)</p>
                                 </div>
                             </div>
                         </div>
@@ -2085,19 +2074,8 @@
                                     <img src="img/vocab/furniture/039-rocking-chair.png" alt="Rocking Chair">
                                 </div>
                                 <div class="flip-box-back">
-                                    <h2>rocking char</h2>
-                                    <p>(планина)</p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="flip-box">
-                            <div class="flip-box-inner">
-                                <div class="flip-box-front">
-                                    <img src="img/vocab/furniture/040-room-divider.png" alt="Room Divider">
-                                </div>
-                                <div class="flip-box-back">
-                                    <h2>room divider</h2>
-                                    <p>(планина)</p>
+                                    <h2>rocking chair</h2>
+                                    <p>(люлеещ се стол)</p>
                                 </div>
                             </div>
                         </div>
@@ -2108,7 +2086,7 @@
                                 </div>
                                 <div class="flip-box-back">
                                     <h2>rug</h2>
-                                    <p>(планина)</p>
+                                    <p>(килим)</p>
                                 </div>
                             </div>
                         </div>
@@ -2119,7 +2097,7 @@
                                 </div>
                                 <div class="flip-box-back">
                                     <h2>shelves</h2>
-                                    <p>(планина)</p>
+                                    <p>(рафтове)</p>
                                 </div>
                             </div>
                         </div>
@@ -2130,7 +2108,7 @@
                                 </div>
                                 <div class="flip-box-back">
                                     <h2>sofa</h2>
-                                    <p>(планина)</p>
+                                    <p>(диван)</p>
                                 </div>
                             </div>
                         </div>
@@ -2141,7 +2119,7 @@
                                 </div>
                                 <div class="flip-box-back">
                                     <h2>storage box</h2>
-                                    <p>(планина)</p>
+                                    <p>(кутия за съхранение)</p>
                                 </div>
                             </div>
                         </div>
@@ -2152,7 +2130,7 @@
                                 </div>
                                 <div class="flip-box-back">
                                     <h2>cabinet</h2>
-                                    <p>(планина)</p>
+                                    <p>(шкаф)</p>
                                 </div>
                             </div>
                         </div>
@@ -2163,7 +2141,7 @@
                                 </div>
                                 <div class="flip-box-back">
                                     <h2>table lamp</h2>
-                                    <p>(планина)</p>
+                                    <p>(настолна лампа)</p>
                                 </div>
                             </div>
                         </div>
@@ -2174,7 +2152,7 @@
                                 </div>
                                 <div class="flip-box-back">
                                     <h2>table</h2>
-                                    <p>(планина)</p>
+                                    <p>(маса)</p>
                                 </div>
                             </div>
                         </div>
@@ -2185,7 +2163,7 @@
                                 </div>
                                 <div class="flip-box-back">
                                     <h2>TV</h2>
-                                    <p>(планина)</p>
+                                    <p>(телевизор)</p>
                                 </div>
                             </div>
                         </div>
@@ -2196,7 +2174,7 @@
                                 </div>
                                 <div class="flip-box-back">
                                     <h2>vase</h2>
-                                    <p>(планина)</p>
+                                    <p>(ваза)</p>
                                 </div>
                             </div>
                         </div>
@@ -2207,7 +2185,7 @@
                                 </div>
                                 <div class="flip-box-back">
                                     <h2>wardrobe</h2>
-                                    <p>(планина)</p>
+                                    <p>(гардероб)</p>
                                 </div>
                             </div>
                         </div>
@@ -2223,7 +2201,7 @@
                                     </div>
                                     <div class="flip-box-back">
                                         <h2>trailer</h2>
-                                        <p>(планина)</p>
+                                        <p>(ремарке)</p>
                                     </div>
                                 </div>
                             </div>
@@ -2234,7 +2212,7 @@
                                     </div>
                                     <div class="flip-box-back">
                                         <h2>plane</h2>
-                                        <p>(планина)</p>
+                                        <p>(самолет)</p>
                                     </div>
                                 </div>
                             </div>
@@ -2245,7 +2223,7 @@
                                     </div>
                                     <div class="flip-box-back">
                                         <h2>signs</h2>
-                                        <p>(планина)</p>
+                                        <p>(знаци)</p>
                                     </div>
                                 </div>
                             </div>
@@ -2256,7 +2234,7 @@
                                     </div>
                                     <div class="flip-box-back">
                                         <h2>train</h2>
-                                        <p>(планина)</p>
+                                        <p>(влак)</p>
                                     </div>
                                 </div>
                             </div>
@@ -2267,7 +2245,7 @@
                                     </div>
                                     <div class="flip-box-back">
                                         <h2>taxi</h2>
-                                        <p>(планина)</p>
+                                        <p>(такси)</p>
                                     </div>
                                 </div>
                             </div>
@@ -2278,7 +2256,7 @@
                                     </div>
                                     <div class="flip-box-back">
                                         <h2>train</h2>
-                                        <p>(планина)</p>
+                                        <p>(влак)</p>
                                     </div>
                                 </div>
                             </div>
@@ -2289,7 +2267,7 @@
                                     </div>
                                     <div class="flip-box-back">
                                         <h2>car</h2>
-                                        <p>(планина)</p>
+                                        <p>(кола)</p>
                                     </div>
                                 </div>
                             </div>
@@ -2300,7 +2278,7 @@
                                     </div>
                                     <div class="flip-box-back">
                                         <h2>car</h2>
-                                        <p>(планина)</p>
+                                        <p>(кола)</p>
                                     </div>
                                 </div>
                             </div>
@@ -2311,7 +2289,7 @@
                                     </div>
                                     <div class="flip-box-back">
                                         <h2>van</h2>
-                                        <p>(планина)</p>
+                                        <p>(ван)</p>
                                     </div>
                                 </div>
                             </div>
@@ -2322,7 +2300,7 @@
                                     </div>
                                     <div class="flip-box-back">
                                         <h2>car</h2>
-                                        <p>(планина)</p>
+                                        <p>(кола)</p>
                                     </div>
                                 </div>
                             </div>
@@ -2333,7 +2311,7 @@
                                     </div>
                                     <div class="flip-box-back">
                                         <h2>bus</h2>
-                                        <p>(планина)</p>
+                                        <p>(автобус)</p>
                                     </div>
                                 </div>
                             </div>
@@ -2344,7 +2322,7 @@
                                     </div>
                                     <div class="flip-box-back">
                                         <h2>truck</h2>
-                                        <p>(планина)</p>
+                                        <p>(камион)</p>
                                     </div>
                                 </div>
                             </div>
@@ -2355,7 +2333,7 @@
                                     </div>
                                     <div class="flip-box-back">
                                         <h2>parking</h2>
-                                        <p>(планина)</p>
+                                        <p>(паркинг)</p>
                                     </div>
                                 </div>
                             </div>
@@ -2366,7 +2344,7 @@
                                     </div>
                                     <div class="flip-box-back">
                                         <h2>speedometer</h2>
-                                        <p>(планина)</p>
+                                        <p>(скоростомер)</p>
                                     </div>
                                 </div>
                             </div>
@@ -2377,7 +2355,7 @@
                                     </div>
                                     <div class="flip-box-back">
                                         <h2>rocket</h2>
-                                        <p>(планина)</p>
+                                        <p>(ракета)</p>
                                     </div>
                                 </div>
                             </div>
@@ -2388,7 +2366,7 @@
                                     </div>
                                     <div class="flip-box-back">
                                         <h2>vespa</h2>
-                                        <p>(планина)</p>
+                                        <p>(веспа)</p>
                                     </div>
                                 </div>
                             </div>
@@ -2399,7 +2377,7 @@
                                     </div>
                                     <div class="flip-box-back">
                                         <h2>boat</h2>
-                                        <p>(планина)</p>
+                                        <p>(лодка)</p>
                                     </div>
                                 </div>
                             </div>
@@ -2410,7 +2388,7 @@
                                     </div>
                                     <div class="flip-box-back">
                                         <h2>bus</h2>
-                                        <p>(планина)</p>
+                                        <p>(автобус)</p>
                                     </div>
                                 </div>
                             </div>
@@ -2432,7 +2410,7 @@
                                     </div>
                                     <div class="flip-box-back">
                                         <h2>caravan</h2>
-                                        <p>(планина)</p>
+                                        <p>(каравана)</p>
                                     </div>
                                 </div>
                             </div>
@@ -2443,7 +2421,7 @@
                                     </div>
                                     <div class="flip-box-back">
                                         <h2>plane</h2>
-                                        <p>(планина)</p>
+                                        <p>(самолет)</p>
                                     </div>
                                 </div>
                             </div>
@@ -2454,7 +2432,7 @@
                                     </div>
                                     <div class="flip-box-back">
                                         <h2>taxi</h2>
-                                        <p>(планина)</p>
+                                        <p>(такси)</p>
                                     </div>
                                 </div>
                             </div>
@@ -2465,7 +2443,7 @@
                                     </div>
                                     <div class="flip-box-back">
                                         <h2>bus</h2>
-                                        <p>(планина)</p>
+                                        <p>(автобус)</p>
                                     </div>
                                 </div>
                             </div>
@@ -2476,7 +2454,7 @@
                                     </div>
                                     <div class="flip-box-back">
                                         <h2>car</h2>
-                                        <p>(планина)</p>
+                                        <p>(кола)</p>
                                     </div>
                                 </div>
                             </div>
@@ -2487,7 +2465,7 @@
                                     </div>
                                     <div class="flip-box-back">
                                         <h2>bus</h2>
-                                        <p>(планина)</p>
+                                        <p>(автобус)</p>
                                     </div>
                                 </div>
                             </div>
@@ -2498,7 +2476,7 @@
                                     </div>
                                     <div class="flip-box-back">
                                         <h2>taxi</h2>
-                                        <p>(планина)</p>
+                                        <p>(такси)</p>
                                     </div>
                                 </div>
                             </div>
@@ -2509,7 +2487,7 @@
                                     </div>
                                     <div class="flip-box-back">
                                         <h2>boat</h2>
-                                        <p>(планина)</p>
+                                        <p>(лодка)</p>
                                     </div>
                                 </div>
                             </div>
@@ -2520,7 +2498,7 @@
                                     </div>
                                     <div class="flip-box-back">
                                         <h2>key</h2>
-                                        <p>(планина)</p>
+                                        <p>(ключ)</p>
                                     </div>
                                 </div>
                             </div>
@@ -2531,7 +2509,7 @@
                                     </div>
                                     <div class="flip-box-back">
                                         <h2>car</h2>
-                                        <p>(планина)</p>
+                                        <p>(кола)</p>
                                     </div>
                                 </div>
                             </div>
@@ -2542,7 +2520,7 @@
                                     </div>
                                     <div class="flip-box-back">
                                         <h2>truck</h2>
-                                        <p>(планина)</p>
+                                        <p>(камион)</p>
                                     </div>
                                 </div>
                             </div>
@@ -2553,7 +2531,7 @@
                                     </div>
                                     <div class="flip-box-back">
                                         <h2>car</h2>
-                                        <p>(планина)</p>
+                                        <p>(кола)</p>
                                     </div>
                                 </div>
                             </div>
@@ -2564,7 +2542,7 @@
                                     </div>
                                     <div class="flip-box-back">
                                         <h2>car</h2>
-                                        <p>(планина)</p>
+                                        <p>(кола)</p>
                                     </div>
                                 </div>
                             </div>
@@ -2575,7 +2553,7 @@
                                     </div>
                                     <div class="flip-box-back">
                                         <h2>van</h2>
-                                        <p>(планина)</p>
+                                        <p>(ван)</p>
                                     </div>
                                 </div>
                             </div>
@@ -2586,7 +2564,7 @@
                                     </div>
                                     <div class="flip-box-back">
                                         <h2>train</h2>
-                                        <p>(планина)</p>
+                                        <p>(влак)</p>
                                     </div>
                                 </div>
                             </div>
@@ -2597,7 +2575,7 @@
                                     </div>
                                     <div class="flip-box-back">
                                         <h2>car</h2>
-                                        <p>(планина)</p>
+                                        <p>(кола)</p>
                                     </div>
                                 </div>
                             </div>
@@ -2608,7 +2586,7 @@
                                     </div>
                                     <div class="flip-box-back">
                                         <h2>ambulance</h2>
-                                        <p>(планина)</p>
+                                        <p>(линейка)</p>
                                     </div>
                                 </div>
                             </div>
@@ -2619,7 +2597,7 @@
                                     </div>
                                     <div class="flip-box-back">
                                         <h2>bike</h2>
-                                        <p>(планина)</p>
+                                        <p>(колело)</p>
                                     </div>
                                 </div>
                             </div>
@@ -2630,7 +2608,7 @@
                                     </div>
                                     <div class="flip-box-back">
                                         <h2>car</h2>
-                                        <p>(планина)</p>
+                                        <p>(кола)</p>
                                     </div>
                                 </div>
                             </div>
@@ -2641,7 +2619,7 @@
                                     </div>
                                     <div class="flip-box-back">
                                         <h2>van</h2>
-                                        <p>(планина)</p>
+                                        <p>(ван)</p>
                                     </div>
                                 </div>
                             </div>
@@ -2652,7 +2630,7 @@
                                     </div>
                                     <div class="flip-box-back">
                                         <h2>boat</h2>
-                                        <p>(планина)</p>
+                                        <p>(лодка)</p>
                                     </div>
                                 </div>
                             </div>
@@ -2663,7 +2641,7 @@
                                     </div>
                                     <div class="flip-box-back">
                                         <h2>cone</h2>
-                                        <p>(планина)</p>
+                                        <p>(конус)</p>
                                     </div>
                                 </div>
                             </div>
@@ -2674,7 +2652,7 @@
                                     </div>
                                     <div class="flip-box-back">
                                         <h2>barrier</h2>
-                                        <p>(планина)</p>
+                                        <p>(бариера)</p>
                                     </div>
                                 </div>
                             </div>
@@ -2685,7 +2663,7 @@
                                     </div>
                                     <div class="flip-box-back">
                                         <h2>car</h2>
-                                        <p>(планина)</p>
+                                        <p>(кола)</p>
                                     </div>
                                 </div>
                             </div>
@@ -2696,7 +2674,7 @@
                                     </div>
                                     <div class="flip-box-back">
                                         <h2>parking</h2>
-                                        <p>(планина)</p>
+                                        <p>(паркинг)</p>
                                     </div>
                                 </div>
                             </div>
@@ -2707,7 +2685,7 @@
                                     </div>
                                     <div class="flip-box-back">
                                         <h2>bus</h2>
-                                        <p>(планина)</p>
+                                        <p>(автобус)</p>
                                     </div>
                                 </div>
                             </div>
@@ -2718,7 +2696,7 @@
                                     </div>
                                     <div class="flip-box-back">
                                         <h2>fuel</h2>
-                                        <p>(планина)</p>
+                                        <p>(гориво)</p>
                                     </div>
                                 </div>
                             </div>
@@ -2729,7 +2707,7 @@
                                     </div>
                                     <div class="flip-box-back">
                                         <h2>container</h2>
-                                        <p>(планина)</p>
+                                        <p>(контейнер)</p>
                                     </div>
                                 </div>
                             </div>
@@ -2740,7 +2718,7 @@
                                     </div>
                                     <div class="flip-box-back">
                                         <h2>traffic lights</h2>
-                                        <p>(планина)</p>
+                                        <p>(светофар)</p>
                                     </div>
                                 </div>
                             </div>
@@ -2751,7 +2729,7 @@
                                     </div>
                                     <div class="flip-box-back">
                                         <h2>fuel</h2>
-                                        <p>(планина)</p>
+                                        <p>(гориво)</p>
                                     </div>
                                 </div>
                             </div>
@@ -2762,7 +2740,7 @@
                                     </div>
                                     <div class="flip-box-back">
                                         <h2>bus</h2>
-                                        <p>(планина)</p>
+                                        <p>(автобус)</p>
                                     </div>
                                 </div>
                             </div>

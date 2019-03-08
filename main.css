@@ -539,6 +539,7 @@ button:hover {
     min-height: 300px;
     position: relative;
     text-align: center;
+	
 
 }
 
@@ -790,8 +791,9 @@ button:hover {
 /*-------*/
 
 .signupsuccess {
-    font-size: 15px;
-    color: #ffffff;
+    font-size: 20px;
+    color: green;
+	text-align: center;
 }
 
 .signuperror {

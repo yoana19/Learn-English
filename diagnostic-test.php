@@ -5,7 +5,7 @@
 <!-- open main div -->
 <div class="headerDiag">
     <!-- open header div -->
-    <h1>Диагностичен тест</h1>
+    <h1 class="exTitle">Диагностичен тест</h1>
     <hr>
     <br>
 </div>
