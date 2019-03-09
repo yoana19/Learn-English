@@ -50,6 +50,8 @@ echo '<h4 class="bookTitle">A Tale of Two Cities</h4>
 	
 ?>
 	</div>
+	
+	<a href="https://www.planetebook.com" target="_blank">"Planet E-books"</a> is licensed under <a href="http://creativecommons.org/licenses/by/3.0" target="_blank">CC BY 3.0</a>
 
 	<?php
     require "footer.php";
