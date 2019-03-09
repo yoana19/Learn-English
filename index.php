@@ -2,31 +2,6 @@
     require "header.php";
 ?>
 
-	<!--	<header>
-		<div class="home_header">
-			<img class="homeImg" src="img/home.jpg">
-			<div class="centerHome">Учете английски език по лесен и достъпен начин</div>
-			<div class="diagnostic">
-				<form action="diagnostic-test.php">
-				<button class="diagnosticBtn">Започни</button>
-				</form>
-
-			</div>
-
-
-
-		</div>
-	</header>-->
-
-	<!--<header class="headerHome">
-    <section>
-        <img src="https://cssanimation.rocks/levelup/public/images/rocky-dashed.svg" class="rocky-dashed">
-        <h1 class="header-title">EnglishKo</h1>
-        <h3 class="header-subtitle">Научете английски лесно и бързо</h3>
-        <p class="header-button"><a href="diagnostic-test.php" class="button">Започнете</a></p>
-        <p class="header-button"><a href="https://m.me/229603241284819" target="_blank" class="button">Пишете</a></p>
-    </section>
-</header>-->
 	<a class="homeTitle">Научете английски днес.</a>
 
 
