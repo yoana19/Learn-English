@@ -8,7 +8,12 @@
 	<div id="info-section">
 		<h1 class=" animated zoomIn">
 
+<form action="includes/xp.inc.php" method="post">
+	<button type="submit" name="add-xp">click</button>
+</form>
+		
 			<?php
+			
 if(isset($_GET['a1/1/1'])) {
     
     echo 'Introduction';

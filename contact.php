@@ -9,7 +9,7 @@
 				<img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/3219/logo.svg" alt="" />
 			</header>
 
-			<form class="form" action="includes/signup.inc.php" method="post">
+			<form class="form" action="includes/contactform.php" method="post">
 				<div class="form__group">
 					<input type="text" name="name" placeholder="Име" class="form__input" />
 				</div>

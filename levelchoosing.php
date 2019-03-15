@@ -42,7 +42,7 @@
 
 <ul class="cd-accordion-menu animated">
     <li class="has-children">
-        <input type="checkbox" name="group-1" id="group-1" checked="">
+        <input type="checkbox" name="group-1" id="group-1">
         <label for="group-1">A1</label>
 
         <ul>
@@ -130,8 +130,8 @@
 
         <ul>
              <li class="has-children">
-                <input type="checkbox" name="sub-group-1" id="sub-group-1">
-                <label for="sub-group-1">Хайде да излезем!/Let’s get together!</label>
+                <input type="checkbox" name="sub-group-7" id="sub-group-7">
+                <label for="sub-group-7">Хайде да излезем!/Let’s get together!</label>
 
                 <ul>
                     <li><a href="levels.php?a2/1/1">Приятели и семейство!/Friends and family!</a></li>
@@ -139,8 +139,8 @@
                 </ul>
             </li>
             <li class="has-children">
-                  <input type="checkbox" name="sub-group-2" id="sub-group-2">
-                  <label for="sub-group-2">На работа/On the job</label>
+                  <input type="checkbox" name="sub-group-8" id="sub-group-8">
+                  <label for="sub-group-8">На работа/On the job</label>
 
                   <ul>
                       <li><a href="levels.php?a2/2/1">Много работа!/A lot of work!</a></li>
@@ -148,8 +148,8 @@
                   </ul>
               </li>
               <li class="has-children">
-                    <input type="checkbox" name="sub-group-3" id="sub-group-3">
-                    <label for="sub-group-3">Изнасяне/Moving out</label>
+                    <input type="checkbox" name="sub-group-9" id="sub-group-9">
+                    <label for="sub-group-9">Изнасяне/Moving out</label>
 
                     <ul>
                         <li><a href="levels.php?a2/3/1">Новата ми къща!/My new house!</a></li>
@@ -157,8 +157,8 @@
                     </ul>
                 </li>
                 <li class="has-children">
-                    <input type="checkbox" name="sub-group-4" id="sub-group-4">
-                    <label for="sub-group-4">Вечер в киното/A night at the cinema</label>
+                    <input type="checkbox" name="sub-group-10" id="sub-group-10">
+                    <label for="sub-group-10">Вечер в киното/A night at the cinema</label>
 
                     <ul>
                         <li><a href="levels.php?a2/4/1">Всичко за филмите!/All about films!</a></li>
@@ -166,8 +166,8 @@
                     </ul>
                 </li>
                 <li class="has-children">
-                    <input type="checkbox" name="sub-group-5" id="sub-group-5">
-                    <label for="sub-group-5">Гол!/Goal!</label>
+                    <input type="checkbox" name="sub-group-11" id="sub-group-11">
+                    <label for="sub-group-11">Гол!/Goal!</label>
 
                     <ul>
                         <li><a href="levels.php?a2/5/1">Спортове и игри/Sports and games</a></li>
@@ -175,8 +175,8 @@
                     </ul>
                 </li>
                 <li class="has-children">
-                    <input type="checkbox" name="sub-group-6" id="sub-group-6">
-                    <label for="sub-group-6">Поглед в бъдещето/Looking ahead</label>
+                    <input type="checkbox" name="sub-group-12" id="sub-group-12">
+                    <label for="sub-group-12">Поглед в бъдещето/Looking ahead</label>
 
                     <ul>
                         <li><a href="levels.php?a2/6/1">Правене на планове/Making plans</a></li>
@@ -192,8 +192,8 @@
 
                 <ul>
                <li class="has-children">
-                  <input type="checkbox" name="sub-group-1" id="sub-group-1">
-                  <label for="sub-group-1">Ad campaign</label>
+                  <input type="checkbox" name="sub-group-13" id="sub-group-13">
+                  <label for="sub-group-13">Ad campaign</label>
 
                   <ul>
                       <li><a href="levels.php?b1/1/1">Ad campaigns</a></li>
@@ -201,8 +201,8 @@
                   </ul>
               </li>
               <li class="has-children">
-                    <input type="checkbox" name="sub-group-2" id="sub-group-2">
-                    <label for="sub-group-2">Subcultures</label>
+                    <input type="checkbox" name="sub-group-14" id="sub-group-14">
+                    <label for="sub-group-14">Subcultures</label>
 
                     <ul>
                         <li><a href="levels.php?b1/2/1">Urban tribes</a></li>
@@ -210,8 +210,8 @@
                     </ul>
                 </li>
                 <li class="has-children">
-                      <input type="checkbox" name="sub-group-3" id="sub-group-3">
-                      <label for="sub-group-3">What shows do you watch?</label>
+                      <input type="checkbox" name="sub-group-15" id="sub-group-15">
+                      <label for="sub-group-15">What shows do you watch?</label>
 
                       <ul>
                           <li><a href="levels.php?b1/3/1">Criticism of film and theatre</a></li>
@@ -219,8 +219,8 @@
                       </ul>
                   </li>
                   <li class="has-children">
-                      <input type="checkbox" name="sub-group-4" id="sub-group-4">
-                      <label for="sub-group-4">Moving abroad</label>
+                      <input type="checkbox" name="sub-group-16" id="sub-group-16">
+                      <label for="sub-group-16">Moving abroad</label>
 
                       <ul>
                           <li><a href="levels.php?b1/4/1">Moving abroad can be difficult</a></li>
@@ -237,8 +237,8 @@
 
         <ul>
              <li class="has-children">
-                    <input type="checkbox" name="sub-group-1" id="sub-group-1">
-                    <label for="sub-group-1">Interculturalism at the office</label>
+                    <input type="checkbox" name="sub-group-17" id="sub-group-17">
+                    <label for="sub-group-17">Interculturalism at the office</label>
 
                     <ul>
                         <li><a href="levels.php?b2/1/1">Negotiating</a></li>
@@ -246,8 +246,8 @@
                     </ul>
                 </li>
                 <li class="has-children">
-                      <input type="checkbox" name="sub-group-2" id="sub-group-2">
-                      <label for="sub-group-2">Urbanism</label>
+                      <input type="checkbox" name="sub-group-18" id="sub-group-18">
+                      <label for="sub-group-18">Urbanism</label>
 
                       <ul>
                           <li><a href="levels.php?b2/2/1">What is the ideal city?</a></li>
@@ -255,8 +255,8 @@
                       </ul>
                   </li>
                   <li class="has-children">
-                        <input type="checkbox" name="sub-group-3" id="sub-group-3">
-                        <label for="sub-group-3">Music Cultures</label>
+                        <input type="checkbox" name="sub-group-19" id="sub-group-19">
+                        <label for="sub-group-19">Music Cultures</label>
 
                         <ul>
                             <li><a href="levels.php?b2/3/1">Writing a review of an album</a></li>
@@ -274,8 +274,8 @@
 
         <ul>
             <li class="has-children">
-                    <input type="checkbox" name="sub-group-1" id="sub-group-1">
-                    <label for="sub-group-1">Music</label>
+                    <input type="checkbox" name="sub-group-20" id="sub-group-20">
+                    <label for="sub-group-20">Music</label>
 
                     <ul>
                         <li><a href="levels.php?c1/1/1">Subordinating conjunctions</a></li>
@@ -283,8 +283,8 @@
                     </ul>
                 </li>
                 <li class="has-children">
-                      <input type="checkbox" name="sub-group-2" id="sub-group-2">
-                      <label for="sub-group-2">Literature</label>
+                      <input type="checkbox" name="sub-group-21" id="sub-group-21">
+                      <label for="sub-group-21">Literature</label>
 
                       <ul>
                           <li><a href="levels.php?c1/2/1">Future in the past</a></li>
@@ -292,8 +292,8 @@
                       </ul>
                   </li>
                   <li class="has-children">
-                        <input type="checkbox" name="sub-group-3" id="sub-group-3">
-                        <label for="sub-group-3">Mysteries and Curiosities</label>
+                        <input type="checkbox" name="sub-group-22" id="sub-group-22">
+                        <label for="sub-group-22">Mysteries and Curiosities</label>
 
                         <ul>
                             <li><a href="levels.php?c1/3/1">Structuring a sentence: relative clauses</a></li>
@@ -301,8 +301,8 @@
                         </ul>
                     </li>
                    <li class="has-children">
-                    <input type="checkbox" name="sub-group-4" id="sub-group-4">
-                    <label for="sub-group-4">Visual Arts</label>
+                    <input type="checkbox" name="sub-group-23" id="sub-group-23">
+                    <label for="sub-group-23">Visual Arts</label>
 
                     <ul>
                         <li><a href="levels.php?c1/4/1">Structuring a sentence: inversion</a></li>
@@ -310,8 +310,8 @@
                     </ul>
                 </li>
                 <li class="has-children">
-                      <input type="checkbox" name="sub-group-5" id="sub-group-5">
-                      <label for="sub-group-5">Identity and Inspiration</label>
+                      <input type="checkbox" name="sub-group-24" id="sub-group-24">
+                      <label for="sub-group-24">Identity and Inspiration</label>
 
                       <ul>
                           <li><a href="levels.php?c1/5/1">Modals in the past</a></li>
@@ -319,8 +319,8 @@
                       </ul>
                   </li>
                   <li class="has-children">
-                        <input type="checkbox" name="sub-group-6" id="sub-group-6">
-                        <label for="sub-group-6">Classic and contemporary folklore</label>
+                        <input type="checkbox" name="sub-group-25" id="sub-group-25">
+                        <label for="sub-group-25">Classic and contemporary folklore</label>
 
                         <ul>
                             <li><a href="levels.php?c1/6/1">Ellipsis</a></li>
@@ -337,8 +337,8 @@
 
         <ul>
              <li class="has-children">
-                <input type="checkbox" name="sub-group-1" id="sub-group-1">
-                <label for="sub-group-1">Creative Writing</label>
+                <input type="checkbox" name="sub-group-26" id="sub-group-26">
+                <label for="sub-group-26">Creative Writing</label>
 
                 <ul>
                     <li><a href="levels.php?c2/1/1">Analogies</a></li>
@@ -349,8 +349,8 @@
                 </ul>
             </li>
             <li class="has-children">
-                <input type="checkbox" name="sub-group-2" id="sub-group-2">
-                <label for="sub-group-2">Grammar Basics C2</label>
+                <input type="checkbox" name="sub-group-27" id="sub-group-27">
+                <label for="sub-group-27">Grammar Basics C2</label>
 
                 <ul>
                     <li><a href="levels.php?c2/2/1">Common Mistakes in English</a></li>
